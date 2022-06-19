@@ -5,6 +5,8 @@ My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Insti
 My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
 
 
+![Image text]([https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg](https://github.com/YuheGong/YuheGong.github.io/blob/master/mypic1.jpg))
+
 When writing your proposal, keep the following questions in mind: 
 
     Is this a specific and focused area of research? 
