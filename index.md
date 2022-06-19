@@ -2,7 +2,7 @@
 
 <body>
 <div class="example-container">
-    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="150" height="150" > 
+    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="100" height="150" > 
 </div>
 </body>
 
