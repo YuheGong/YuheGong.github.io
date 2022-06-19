@@ -20,13 +20,13 @@ Besides, I am highly interested in improving learning performance or solving cur
 
 Introducing Movement Primitives into Actor-critic Algorithm: 
     
-    Introducing Probabilistic Movement Primitives (ProMP) into Twin Delayed Deep Deterministic Policy (TD3) as the actor policy. 
+    - Introducing Probabilistic Movement Primitives (ProMP) into Twin Delayed Deep Deterministic Policy (TD3) as the actor policy. 
     
-    Improving the learning performance of ProMP on goal-changing environments and speed up the convergence rate of TD3 framework.
+    - Improving the learning performance of ProMP on goal-changing environments and speed up the convergence rate of TD3 framework.
     
-    Experiments on OpenAI environments. MetaWorld environments.
+    - Experiments on OpenAI environments. MetaWorld environments.
     
-    [Github Repo](https://github.com/YuheGong/EpisodicTD3).
+    - [Github Repo](https://github.com/YuheGong/EpisodicTD3).
 
 
 #### 2. TAVAAL-Ranker
