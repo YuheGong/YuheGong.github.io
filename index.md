@@ -11,15 +11,15 @@
     <title>Document</title>
     <style>
         img{
-            width:100px;
-            height:100px;
+            width:10px;
+            height:10px;
             float:left;
             margin-right:10px;
         }
     </style>
 </head>
 <body>
-    <img src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" alt="" width="20%" height="20%">
+    <img src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" alt="">
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias corporis omnis quae sapiente fugit! Inventore laborum alias vitae similique ipsam dolorem quam.</p>
 </body>
 </html>
