@@ -4,9 +4,10 @@
     <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/pic3.png" heigt="200px" > 
 </div>
 </body>
-    
-My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
+    s
+My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous researches focus on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
 
+## Research Interest
 
 When writing your proposal, keep the following questions in mind: 
 
@@ -30,7 +31,7 @@ When reading the proposal, the following things will be considered
 
     Would they be able to undergo extended and intense research? 
 
-
+## Research Experirence
 ## Reserach Proposal
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
