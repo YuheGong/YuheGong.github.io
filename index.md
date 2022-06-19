@@ -3,6 +3,26 @@
 <img src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="20%" height="20%"> My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width:100px;
+            height:100px;
+            float:left;
+            margin-right:10px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" alt="">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias corporis omnis quae sapiente fugit! Inventore laborum alias vitae similique ipsam dolorem quam.</p>
+</body>
+</html>
 When writing your proposal, keep the following questions in mind: 
 
     Is this a specific and focused area of research? 
