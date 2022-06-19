@@ -14,7 +14,7 @@ From Sept.2018 to Oct. 2020, I completed the compulsory courses of the master st
 - Meta Learning: multi-agent RL, model-agnostic meta learning.
 - Deep Learning: deep neural networks, hierarchical RL.
 
-Besides, I am highly interested in improving the learning performance or solving the current research difficulties in _mathematical_ / _algorithmic_ level.
+Besides, I am highly interested in improving learning performance or solving current research difficulties at the mathematical/algorithmic level.
 
 ## Research Experience
 
