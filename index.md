@@ -1,36 +1,9 @@
 ##  About Me 
 
-<img src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="20%" height="20%"> My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        img{
-            width:10px;
-            height:10px;
-            float:left;
-            margin-right:10px;
-        }
-    </style>
-</head>
-<body>
-    <img src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" alt="">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias corporis omnis quae sapiente fugit! Inventore laborum alias vitae similique ipsam dolorem quam.</p>
-</body>
-</html>
-
-
-
 <body>
 <div class="example-container">
-    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="150"> " We had agreed, my companion and I, that I should call for him at his house, after dinner, not later than eleven o’clock. This athletic
-    young Frenchman belongs to a small set of Parisian sportsmen, who have taken up “ballooning” as a pastime. After having exhausted all the sensations that are to be found in ordinary sports, even those of “automobiling” at a breakneck speed, the
-    members of the “Aéro Club” now seek in the air, where they indulge in all kinds of daring feats, the nerve-racking excitement that they have ceased to find on earth."
+    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="150"> " My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
+"
 </div>
 <style>
  .example-container { 
