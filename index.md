@@ -2,10 +2,13 @@
 
 <body>
 <div class="example-container">
-    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="150"> " My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
-"
+    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="150"> 
 </div>
 </body>
+
+My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
+
+
 When writing your proposal, keep the following questions in mind: 
 
     Is this a specific and focused area of research? 
