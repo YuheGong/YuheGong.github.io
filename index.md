@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-    <img src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" alt="">
+    <img src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="20%" height="20%">
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias corporis omnis quae sapiente fugit! Inventore laborum alias vitae similique ipsam dolorem quam.</p>
 </body>
 </html>
