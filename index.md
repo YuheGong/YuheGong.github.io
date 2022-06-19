@@ -11,8 +11,8 @@ From Sept.2018 to Oct. 2020, I completed the compulsory courses of the master st
 
 ## Research Interest
 - Robot Learning: humanoid robotics, reward modelling, policy search.
-- Meta Learning: multi-agent RL, MAML， model-based meta learning.
-- Deep Learning: deep neural networks, DQN, actor-critic algorithms, hierarchical RL.
+- Meta Learning: multi-agent RL, model-agnostic meta learning，model-based meta learning.
+- Deep Learning: deep neural networks, actor-critic RL, hierarchical RL.
 
 ## Research Experience
 
