@@ -1,7 +1,7 @@
 ##  Yuhe Gong
 <body>
 <div class="example-container">
-    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/pic3.png" heigt=50% > 
+    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/pic3.png" heigt=300px > 
 </div>
 </body>
 
@@ -23,6 +23,11 @@ Besides, I am highly interested in improving learning performance or solving cur
 - Improving the learning performance of ProMP on goal-changing environments and speed up the convergence rate of TD3 framework.
 - Experiments on OpenAI environments. MetaWorld environments.
 - [Github Repo](https://github.com/YuheGong/EpisodicTD3).
+
+#### 2. TAVAAL-Ranker
+- Reimplement task-aware variational adversarial active learning (TAVAAL) algorithm.
+- Use entropy term replacing the ranker in TAVAAL to obtain a higher uncertainty.
+- [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git)
 ## Reserach Proposal
 
 ## Contact Me
