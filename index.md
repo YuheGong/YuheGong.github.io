@@ -18,7 +18,7 @@ Besides, I am highly interested in improving learning performance or solving cur
 
 ## Research Experience
 
-Introducing Movement Primitives into Actor-critic Algorithm: [Github Repo](https://github.com/YuheGong/EpisodicTD3)
+1. Introducing Movement Primitives into Actor-critic Algorithm: [Github Repo](https://github.com/YuheGong/EpisodicTD3)
     
     - Introducing Probabilistic Movement Primitives (ProMP) into Twin Delayed Deep Deterministic Policy (TD3) as the actor policy. 
     
