@@ -18,9 +18,8 @@ Besides, I am highly interested in improving learning performance or solving cur
 
 ## Research Experience
 
-#### 1. Introducing Movement Primitives into Actor-critic Algorithm: 
-<font color=#808080 size=7>Master Thesis </font><br />
-  
+Introducing Movement Primitives into Actor-critic Algorithm: 
+
   Introducing Probabilistic Movement Primitives (ProMP) into Twin Delayed Deep Deterministic Policy (TD3) as the actor policy. 
   
   Improving the learning performance of ProMP on goal-changing environments and speed up the convergence rate of TD3 framework.
