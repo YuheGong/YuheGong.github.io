@@ -18,7 +18,7 @@ Besides, I am highly interested in improving learning performance or solving cur
 
 ## Research Experience
 
-1. Introducing Movement Primitives into Actor-critic Algorithm: [Github Repo](https://github.com/YuheGong/EpisodicTD3)
+#### 1. Introducing Movement Primitives into Actor-critic Algorithm: [Github Repo](https://github.com/YuheGong/EpisodicTD3)
     
     - Introducing Probabilistic Movement Primitives (ProMP) into Twin Delayed Deep Deterministic Policy (TD3) as the actor policy. 
     
@@ -27,10 +27,12 @@ Besides, I am highly interested in improving learning performance or solving cur
     - Experiments on OpenAI environments. MetaWorld environments.
    
 
-#### 2. TAVAAL-Ranker
-- Reimplement task-aware variational adversarial active learning (TAVAAL) algorithm.
-- Use entropy term replacing the ranker in TAVAAL to obtain a higher uncertainty.
-- [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git)
+#### 2. TAVAAL-Ranker: [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git)
+
+    - Reimplement task-aware variational adversarial active learning (TAVAAL) algorithm.
+    
+    - Use entropy term replacing the ranker in TAVAAL to obtain a higher uncertainty.
+  
 ## Reserach Proposal
 
 ## Contact Me
