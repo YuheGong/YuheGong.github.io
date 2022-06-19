@@ -7,7 +7,7 @@
 
 My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous researches focus on *Reinforcement Learning*, especially *policy search*, *movement primitives*, *probabilistic model*, and *reward modelling*. 
 
-From Sept.2018 to Oct. 2020, I completed the compulsory course in Institute of Control Systems, KIT. After that, I did an intership in Prof. Gerhard Neumann's Lab, Autonomous Learning Robots Lab (ALR) and focused on the reinforcement learning and reward modelling. And then, I kept on doing my master thesis in ALR.
+From Sept.2018 to Oct. 2020, I completed the compulsory course of the master study in Institute of Control Systems, KIT. After that, I did an intership in Prof. Gerhard Neumann's Lab, Autonomous Learning Robots Lab (ALR)  on Reinforcement Learning and reward modelling. And then, I kept on doing my master thesis in ALR. 
 
 ## Research Interest
 
