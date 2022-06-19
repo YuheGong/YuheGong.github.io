@@ -23,6 +23,23 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias corporis omnis quae sapiente fugit! Inventore laborum alias vitae similique ipsam dolorem quam.</p>
 </body>
 </html>
+
+
+
+<body>
+<div class="example-container">
+    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="150"> " We had agreed, my companion and I, that I should call for him at his house, after dinner, not later than eleven o’clock. This athletic
+    young Frenchman belongs to a small set of Parisian sportsmen, who have taken up “ballooning” as a pastime. After having exhausted all the sensations that are to be found in ordinary sports, even those of “automobiling” at a breakneck speed, the
+    members of the “Aéro Club” now seek in the air, where they indulge in all kinds of daring feats, the nerve-racking excitement that they have ceased to find on earth."
+</div>
+<style>
+ .example-container { 
+    height: auto; 
+    width: 500px; 
+    margin: auto; 
+    border: 1px solid green; }
+</style>
+</body>
 When writing your proposal, keep the following questions in mind: 
 
     Is this a specific and focused area of research? 
