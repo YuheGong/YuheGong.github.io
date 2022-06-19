@@ -1,20 +1,8 @@
 ##  About Me 
 
 <body>
-<style>
-div {
-width:300px;
-border:1px solid green}
-img {
-float:left;
-width:120px;
-height:120px} 
-img{margin-left: 10px;}
-img{margin-right: 10px;}
-</style>
-<body>
 <div class="example-container">
-    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="150"> 
+    <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/mypic1.jpg" width="150" height="150" > 
 </div>
 </body>
 
