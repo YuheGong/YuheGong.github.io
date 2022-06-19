@@ -7,7 +7,7 @@
 
 My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in [Karlsruhe Institute of Technology, Germany](https://www.kit.edu/english/index.php). My previous researches focus on *Reinforcement Learning (RL)*, especially *policy search*, *movement primitives*, *probabilistic model*, and *reward modelling*. 
 
-From Sept. 2018 to Oct. 2020, I completed the compulsory courses of the master's study at the [Institute of Control Systems, KIT](https://www.irs.kit.edu/english/index.php). From Nov. 2020, I did an internship in Prof. Gerhard Neumann's [Autonomous Learning Robots Lab (ALR)](https://alr.anthropomatik.kit.edu/index.php) to compare step-based policy and episodic policy. After that, I kept on doing my master's thesis in ALR. During my master thesis, I propose a novel algorithm, which solves the pre-tuning difficulty of the policy neural network by introducing the movement primitives into the actor-critic framework. I am now polishing the algorithm and aiming for [ICRA](https://www.icra2023.org/programme) in September.
+From Sept. 2018 to Oct. 2020, I completed the compulsory courses of the master's study at the [Institute of Control Systems, KIT](https://www.irs.kit.edu/english/index.php). From Nov. 2020, I did an internship in Prof. Gerhard Neumann's [Autonomous Learning Robots Lab (ALR)](https://alr.anthropomatik.kit.edu/index.php) to compare step-based policy and episodic policy. After that, I kept on doing my master's thesis in ALR. During my master thesis, I propose a novel algorithm, which solves the pre-tuning difficulty of the policy neural network by introducing the movement primitives into the actor-critic framework. I am now polishing the algorithm and aiming for [ICRA in September](https://www.icra2023.org/programme).
 
 ## Research Interest
 - Robot Learning: humanoid robotics, policy search, reward modelling.
@@ -19,9 +19,10 @@ Besides, I am highly interested in improving learning performance or solving cur
 ## Research Experience
 
 #### 1. Introducing Movement Primitives into Actor-critic Algorithm: 
-- the predictive reward model of step-based policy into episodic policy in order to give the step-based feedback information and improve sample complexity. 
-- item Integrate Probabilistic Movement Primitives (ProMP) into Time Delayed Deep Deterministic Policy Gradient (TD3).
-- item Experiments on Mujoco Reacher Environment with diverse reward function design.
+- Introducing Probabilistic Movement Primitives (ProMP) into Twin Delayed Deep Deterministic Policy (TD3) as the actor policy. 
+- Improving the learning performance of ProMP on goal-changing environments and speed up the convergence rate of TD3 framework.
+- Experiments on OpenAI environments. MetaWorld environments.
+- [Github Repo](https://github.com/YuheGong/EpisodicTD3).
 ## Reserach Proposal
 
 ## Contact Me
