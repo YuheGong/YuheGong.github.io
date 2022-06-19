@@ -18,7 +18,7 @@ Besides, I am highly interested in improving learning performance or solving cur
 
 ## Research Experience
 
-### Introducing Movement Primitives into Actor-critic Algorithm: 
+#### 1. Introducing Movement Primitives into Actor-critic Algorithm: 
 - the predictive reward model of step-based policy into episodic policy in order to give the step-based feedback information and improve sample complexity. 
 - item Integrate Probabilistic Movement Primitives (ProMP) into Time Delayed Deep Deterministic Policy Gradient (TD3).
 - item Experiments on Mujoco Reacher Environment with diverse reward function design.
