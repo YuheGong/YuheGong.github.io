@@ -4,7 +4,7 @@
     <img id="example-element" align='left' class="transition-all" src="https://github.com/YuheGong/YuheGong.github.io/raw/master/pic3.png" heigt="200px" > 
 </div>
 </body>
-    s
+
 My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous researches focus on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
 
 ## Research Interest
