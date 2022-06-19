@@ -13,6 +13,7 @@ From Sept.2018 to Oct. 2020, I completed the compulsory courses of the master st
 - Robot Learning: humanoid robotics, reward modelling, policy search.
 - Meta Learning: multi-agent RL, model-agnostic meta learning，model-based meta learning.
 - Deep Learning: deep neural networks, hierarchical RL.
+Besides, I am highly interested in improving the learning performance or solving the current research difficulties in _mathematical_ / _algorithmic_ level.
 
 ## Research Experience
 
