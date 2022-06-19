@@ -1,6 +1,8 @@
 ##  About Me 
 
-My name is Yuhe Gong. You can call me Yuri. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
+My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Institute of Technology, Germany. 
+
+My previous research focuses on Reinforcement Learning, especially policy search, movement primitives, probabilistic model, and reward modelling. 
 
 
 When writing your proposal, keep the following questions in mind: 
