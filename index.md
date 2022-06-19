@@ -10,7 +10,7 @@ My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in Karlsruhe Insti
 From Sept.2018 to Oct. 2020, I completed the compulsory courses of the master study in Institute of Control Systems, KIT. From Nov. 2020, I did an intership in Prof. Gerhard Neumann's Lab, [Autonomous Learning Robots Lab (ALR)](https://alr.anthropomatik.kit.edu/index.php)  on comparing step-based policy and episodic policy. After that, I kept on doing my master thesis in ALR. During my master thesis, I propose a novel algorithm, which solves the pre-tuning difficulty of the policy neural network by introducing the movement primitives into actor-cirtic framework. I am now polishing the algorithm and aiming for [ICRA](https://www.icra2023.org/programme) in September.
 
 ## Research Interest
-- Robot Learning: humanoid robotics, reward modelling, policy search.
+- Robot Learning: humanoid robotics, policy search, reward modelling.
 - Meta Learning: multi-agent RL, model-agnostic meta learning.
 - Deep Learning: deep neural networks, hierarchical RL.
 
