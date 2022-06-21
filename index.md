@@ -39,7 +39,7 @@ Besides, I am highly interested in improving learning performance and solving cu
     - Experiments on ResNet18.
 
 #### 3. Compare Episodic and Step-based Reinforcement Learning
-<sub><sup>INTERNSHIP || Nov. 2020 – Aug. 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git) <small>
+<sub><sup>INTERNSHIP || Nov. 2020 – Aug. 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git)</sup></sub>
     
     
     - Compare the learning performance of episodic policy and step-based policy under different reward tasks 
@@ -52,7 +52,7 @@ Besides, I am highly interested in improving learning performance and solving cu
     
     
 #### 4. Meta‑Learning For Robotics 
-<sub><sup>LITERATURE SURVEY || Nov. 2020 – Mar. 2021 | Autonomous Learning Robots (ALR) Lab, KIT, Germany || <small>
+<sub><sup>LITERATURE SURVEY || Nov. 2020 – Mar. 2021 | Autonomous Learning Robots (ALR) Lab, KIT, Germany ||</sup></sub>
     
     - Literature Survey for Meta-Learning, especially:
         
@@ -65,7 +65,7 @@ Besides, I am highly interested in improving learning performance and solving cu
 <br />
 Besides, I am also familiar with C++ coding:
 #### Optimization Design and Analysis of Driving Machine for Electric Vehicles 
-<sub><sup>BECHALOR THESIS || Oct. 2016 - Jun. 2017 | [School of Electrical and Electronic Engineering, HUST](http://english.seee.hust.edu.cn/index.htm) <small>  || <small>
+<sub><sup>BECHALOR THESIS || Oct. 2016 - Jun. 2017 | [School of Electrical and Electronic Engineering, HUST](http://english.seee.hust.edu.cn/index.htm) </sup></sub>
     
     - Design a permanent-magnet synchronous motor for Electric Vehicles by changing the inside structureof Rotor and Stator.
     
