@@ -57,11 +57,20 @@ Besides, I am highly interested in improving learning performance and solving cu
     - Literature Survey for Meta-Learning, especially:
         
         - Model-Agnostic Meta-Learning (MAML)
-        
+       
         - Meta-Learning Model-Based Control (MBML) 
         
         - Evolutionary Meta-Learning (ES-MAML).
   
+
+Besides, I am also familiar with C++ coding:
+#### Optimization Design and Analysis of Driving Machine for Electric Vehicles 
+<sub><sup>BECHALOR THESIS || Oct. 2016 - Jun. 2017 | [School of Electrical and Electronic Engineering, HUST](http://english.seee.hust.edu.cn/index.htm) <small>  || <small>
+    
+    - Design a permanent-magnet synchronous motor for Electric Vehicles by changing the inside structureof Rotor and Stator.
+    
+    - Cannot share the codes due to the lab's rule. Got 91 as the final score (full score 100).
+    
     
 ## Reserach Proposal
 
