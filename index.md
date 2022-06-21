@@ -36,7 +36,7 @@ Besides, I am highly interested in improving learning performance or solving cur
     - Use entropy term to replace the ranker in TAVAAL to obtain a higher uncertainty.
 
 #### 3. Compare Episodic and Step-based Reinforcement Learning
-<sub><sup>Internship || November 2020 – August 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git) <small>
+<sub><sup>Internship || Nov. 2020 – Aug. 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git) <small>
 ## Reserach Proposal
 
 ## Contact Me
