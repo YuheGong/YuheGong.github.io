@@ -61,9 +61,7 @@ Besides, I am highly interested in improving learning performance and solving cu
         - Meta-Learning Model-Based Control (MBML) 
         
         - Evolutionary Meta-Learning (ES-MAML).
-  
 
-<br />
 <br />
 Besides, I am also familiar with C++ coding:
 #### Optimization Design and Analysis of Driving Machine for Electric Vehicles 
