@@ -70,11 +70,16 @@ Besides, I am highly interested in improving learning performance and solving cu
         <tr>
             <td>
                 <!--左侧内容-->
-                左侧
+                ### Machine Learning
+                [Prof. Gerhard Neumann](https://scholar.google.com/citations?user=GL360kMAAAAJ&hl=zh-CN):  
+                [Prof. Rudolf Lioutikov](https://scholar.google.de/citations?user=hvjV43MAAAAJ&hl=de):  
             </td>
             <td>
                 <!--右侧内容-->
-                右侧
+                ### Electrical Engineering:
+                [Prof. Caiyong Ye](https://www.researchgate.net/scientific-contributions/Caiyong-Ye-28798318): 
+                [Prof. Yuejin Tang](https://www.researchgate.net/scientific-contributions/Yuejin-Tang-11832533):
+
             </td>
         </tr>
     </table>
@@ -82,16 +87,8 @@ Besides, I am highly interested in improving learning performance and solving cu
 
 ## Recommendator Professor
 
-### Machine Learning
 
-#### [Prof. Gerhard Neumann](https://scholar.google.com/citations?user=GL360kMAAAAJ&hl=zh-CN):  
 
-#### [Prof. Rudolf Lioutikov](https://scholar.google.de/citations?user=hvjV43MAAAAJ&hl=de):  
-
-### Electrical Engineering:
-
-#### [Prof. Caiyong Ye](https://www.researchgate.net/scientific-contributions/Caiyong-Ye-28798318): 
-#### [Prof. Yuejin Tang](https://www.researchgate.net/scientific-contributions/Yuejin-Tang-11832533):
 
 C++ coding: Optimization Design and Analysis of Driving Machine for Electric Vehicles 
 <sub><sup>BECHALOR THESIS || Oct. 2016 - Jun. 2017 | [School of Electrical and Electronic Engineering, HUST](http://english.seee.hust.edu.cn/index.htm) </sup></sub>
