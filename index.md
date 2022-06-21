@@ -5,7 +5,7 @@
 </div>
 </body>
 
-My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in [Karlsruhe Institute of Technology, Germany](https://www.kit.edu/english/index.php). My previous researches focus on *Reinforcement Learning (RL)*, especially *policy search*, *movement primitives*, *probabilistic model*, and *reward modelling*. 
+My name is Yuhe (Yuri in English) Gong. I got my M.Sc. degree in [Karlsruhe Institute of Technology (KIT), Germany](https://www.kit.edu/english/index.php). My previous researches focus on *Reinforcement Learning (RL)*, especially *policy search*, *movement primitives*, *probabilistic model*, and *reward modelling*. 
 
 From Sept. 2018 to Oct. 2020, I completed the compulsory courses of the master's study at the [Institute of Control Systems, KIT](https://www.irs.kit.edu/english/index.php). From Nov. 2020, I did an internship in Prof. Gerhard Neumann's [Autonomous Learning Robots Lab (ALR)](https://alr.anthropomatik.kit.edu/index.php) to compare step-based policy and episodic policy. After that, I kept on doing my master's thesis in ALR. During my master thesis, I propose a novel algorithm, which solves the pre-tuning difficulty of the policy neural network by introducing the movement primitives into the actor-critic framework. I am now doing an internship and polishing the algorithm and aiming for [ICRA in September](https://www.icra2023.org/programme).
 
@@ -29,7 +29,7 @@ Besides, I am highly interested in improving learning performance or solving cur
    
 
 #### 2. TAVAAL-Ranker
-<sub><sup>MINI JOB || Sept. 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git) <small>(Mini Job)</small></sup></sub>
+<sub><sup>MINI JOB || Sept. 2021 ||  Intelligent System Security research group, KIT, Germany || [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git) <small>(Mini Job)</small></sup></sub>
     
     - Reimplement task-aware variational adversarial active learning (TAVAAL) algorithm.
     
