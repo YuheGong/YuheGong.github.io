@@ -64,17 +64,16 @@ Besides, I am highly interested in improving learning performance and solving cu
 
 <br />
 
-## Other Coding Skill
+## Other Research Experience (Machine Learning irrelevant)
 
-Besides, I am also familiar with C++ coding:
-
-#### Optimization Design and Analysis of Driving Machine for Electric Vehicles 
+#### C++ coding: Optimization Design and Analysis of Driving Machine for Electric Vehicles 
 <sub><sup>BECHALOR THESIS || Oct. 2016 - Jun. 2017 | [School of Electrical and Electronic Engineering, HUST](http://english.seee.hust.edu.cn/index.htm) </sup></sub>
     
     - Design a permanent-magnet synchronous motor for Electric Vehicles by changing the inside structureof Rotor and Stator.
     
     - Cannot share the codes due to the lab's rule. Got 91 as the final score (full score 100).
     
+#### Laborotory Experience
     
 ## Reserach Proposal
 
