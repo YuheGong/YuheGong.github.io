@@ -64,6 +64,11 @@ Besides, I am highly interested in improving learning performance and solving cu
 
 <br />
 
+## Coding Skills
+
+Python: Proficient
+C++:    Experienced
+Matlab: Experienced
 
 ## Recommendator Professor
 
