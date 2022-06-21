@@ -79,12 +79,10 @@ Besides, I am highly interested in improving learning performance and solving cu
                 ### Electrical Engineering:
                 [Prof. Caiyong Ye](https://www.researchgate.net/scientific-contributions/Caiyong-Ye-28798318): 
                 [Prof. Yuejin Tang](https://www.researchgate.net/scientific-contributions/Yuejin-Tang-11832533):
-
             </td>
         </tr>
     </table>
 </html>
-
 
 
 ## Recommendator Professor
