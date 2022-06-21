@@ -70,9 +70,9 @@ Besides, I am highly interested in improving learning performance and solving cu
         <tr>
             <td>
                 <!--左侧内容-->
-                ### Machine Learning
-                <p><a href="https://scholar.google.com/citations?user=GL360kMAAAAJ&hl=zh-CN">Prof. Gerhard Neumann1</a></p>
-                [Prof. Rudolf Lioutikov](https://scholar.google.de/citations?user=hvjV43MAAAAJ&hl=de):  
+                <strong> Machine Learning </strong> 
+                <p><a href="https://scholar.google.com/citations?user=GL360kMAAAAJ&hl=zh-CN">Prof. Gerhard Neumann</a></p>
+                <p><a href="https://scholar.google.de/citations?user=hvjV43MAAAAJ&hl=de">Prof. Rudolf Lioutikov</a></p>
             </td>
             <td>
                 <!--右侧内容-->
