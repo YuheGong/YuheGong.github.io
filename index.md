@@ -55,8 +55,11 @@ Besides, I am highly interested in improving learning performance and solving cu
 <sub><sup>LITERATURE SURVEY || Nov. 2020 – Mar. 2021 | Autonomous Learning Robots (ALR) Lab, KIT, Germany || <small>
     
     - Literature Survey for Meta-Learning, especially:
+        
         - Model-Agnostic Meta-Learning (MAML)
+        
         - Meta-Learning Model-Based Control (MBML) 
+        
         - Evolutionary Meta-Learning (ES-MAML).
   
     
