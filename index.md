@@ -64,9 +64,20 @@ Besides, I am highly interested in improving learning performance and solving cu
 
 <br />
 
-## Other Research Experience (Machine Learning irrelevant)
+## Recommendator Professor
 
-#### C++ coding: Optimization Design and Analysis of Driving Machine for Electric Vehicles 
+### Machine Learning
+
+#### [Prof. Gerhard Neumann](https://scholar.google.com/citations?user=GL360kMAAAAJ&hl=zh-CN):  
+
+#### [Prof. Rudolf Lioutikov](https://scholar.google.de/citations?user=hvjV43MAAAAJ&hl=de):  
+
+### Electrical Engineering:
+
+#### [Prof. Caiyong Ye](https://www.researchgate.net/scientific-contributions/Caiyong-Ye-28798318): 
+#### [Prof. Yuejin Tang](https://www.researchgate.net/scientific-contributions/Yuejin-Tang-11832533):
+
+C++ coding: Optimization Design and Analysis of Driving Machine for Electric Vehicles 
 <sub><sup>BECHALOR THESIS || Oct. 2016 - Jun. 2017 | [School of Electrical and Electronic Engineering, HUST](http://english.seee.hust.edu.cn/index.htm) </sup></sub>
     
     - Design a permanent-magnet synchronous motor for Electric Vehicles by changing the inside structureof Rotor and Stator.
