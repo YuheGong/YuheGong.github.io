@@ -30,7 +30,7 @@ Besides, I am highly interested in improving learning performance and solving cu
    
 
 #### 2. TAVAAL-Ranker
-<sub><sup>MINI JOB || Sept. 2021 ||  Intelligent System Security Research Group, KIT, Germany || [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git) <small>(Mini Job)</small></sup></sub>
+<sub><sup>MINI JOB || Sept. 2021 ||  Intelligent System Security Research Group, KIT, Germany || [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git) </sup></sub>
     
     - Reimplement task-aware variational adversarial active learning (TAVAAL) algorithm.
     
@@ -39,7 +39,7 @@ Besides, I am highly interested in improving learning performance and solving cu
     - Experiments on ResNet18.
 
 #### 3. Compare Episodic and Step-based Reinforcement Learning
-<sub><sup>Internship || Nov. 2020 – Aug. 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git) <small>
+<sub><sup>INTERNSHIP || Nov. 2020 – Aug. 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git) <small>
     
     
     - Compare the learning performance of episodic policy and step-based policy under different reward tasks 
