@@ -65,6 +65,8 @@ Besides, I am highly interested in improving learning performance and solving cu
 <br />
 
 
+## Recommendator Professor
+
 <html>
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
@@ -76,16 +78,13 @@ Besides, I am highly interested in improving learning performance and solving cu
             </td>
             <td>
                 <!--右侧内容-->
-                ### Electrical Engineering:
-                [Prof. Caiyong Ye](https://www.researchgate.net/scientific-contributions/Caiyong-Ye-28798318): 
-                [Prof. Yuejin Tang](https://www.researchgate.net/scientific-contributions/Yuejin-Tang-11832533):
+                <strong> Electrical Engineering </strong> 
+                <p><a href="https://www.researchgate.net/scientific-contributions/Caiyong-Ye-28798318">Prof. Caiyong Ye</a></p>
+                <p><a href="https://www.researchgate.net/scientific-contributions/Yuejin-Tang-11832533">Prof. Yuejin Tang</a></p> 
             </td>
         </tr>
     </table>
 </html>
-
-
-## Recommendator Professor
 
 
 
