@@ -29,7 +29,8 @@ Besides, I am highly interested in improving learning performance or solving cur
    
 
 #### 2. TAVAAL-Ranker
-<sub><sup>MINI JOB || September. 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git) <small>(Mini Job)</small></sup></sub>
+<sub><sup>MINI JOB || Sept. 2021 || Autonomous Learning Robots (ALR) Lab, KIT, Germany || [Github Repo](https://github.com/YuheGong/TAVAAL-RANK.git) <small>(Mini Job)</small></sup></sub>
+    
     - Reimplement task-aware variational adversarial active learning (TAVAAL) algorithm.
     
     - Use entropy term to replace the ranker in TAVAAL to obtain a higher uncertainty.
