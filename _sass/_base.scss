@@ -131,11 +131,6 @@ p {
       font-weight: 500;
       margin-bottom: 0px;
     }
-    .place {
-      color: rgba(256, 256, 256, 0.6);
-      font-weight: 500;
-      margin-bottom: 0px;
-    }
   }
   .languages-container {
     .lang-desc {
@@ -207,13 +202,15 @@ p {
     font-weight: 500;
     flex: 75%;
   }
+ 
+  .time,
+  .cert-url {
     position: absolute;
     right: 0;
     top: 0;
     color: $text-grey;
     flex: 25%;
   }
-  
   .company,
   .recommendation-role,
   .university,
@@ -221,7 +218,6 @@ p {
     margin-bottom: 10px;
     color: $text-grey;
   }
-
 
   .project-title {
     font-size: 16px;
@@ -266,7 +262,7 @@ p {
       margin-bottom: 15px;
     }
   }
-
+}
 
 .skillset {
   .item {
