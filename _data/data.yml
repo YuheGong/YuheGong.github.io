@@ -47,14 +47,14 @@ sidebar:
 
 
 career-profile:
-  title: Career Profile
+  title: Robot Manipulation and Human Robot Interaction
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I am a second-year Ph.D. student at the University of Nottingham
+    starting from October 2023, under the supervision of Dr. Luis Figueredo. 
+    My PhD topic is robotic control, manipulation, and physical 
+    human-robot interaction. I am interested in geometric methods for 
+    intelligent robots, focusing on developing mathematical frameworks 
+    that enable robots to operate in a natural, efficient, and comfortable manner. 
 education:
   title: Education
   info:
