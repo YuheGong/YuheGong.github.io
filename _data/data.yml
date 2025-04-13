@@ -32,19 +32,19 @@ sidebar:
       level: Fluent
     
     
-    title: Programming
-    info:
-    - idiom: C++
-      level: Professional
+    # title: Programming
+    # info:
+    # - idiom: C++
+    #   level: Professional
 
-    - idiom: Python
-      level: Professional
+    # - idiom: Python
+    #   level: Professional
 
-    - idiom: Matlab
-      level: Professional
+    # - idiom: Matlab
+    #   level: Professional
 
-    - idiom: ROS
-    level: Professional
+    # - idiom: ROS
+    # level: Professional
     
 
   # interests:
