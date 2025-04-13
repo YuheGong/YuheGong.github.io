@@ -193,7 +193,7 @@ projects:
   # intro: >
   #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Master Thesis | Prof. Gerhard Neumann 
+  - title: Master Thesis (Prof. Gerhard Neumann) 
     link: "https://github.com/YuheGong/EpisodicTD3.git"
     tagline: "Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm"
     time: 08/2021 - 03/2022 
@@ -207,7 +207,7 @@ projects:
     company: Intelligent System Security Research Group, Karlsruhe Institute of Technology
     details: "EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
   
-  - title: Internship | Prof. Gerhard Neumann
+  - title: Internship (Prof. Gerhard Neumann)
     link: "https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git"
     tagline: "Reimplementation of Task-aware Variational Adversarial Active Learning"
     time: 10/2020 - 07/2021
