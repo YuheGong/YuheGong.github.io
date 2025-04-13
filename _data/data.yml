@@ -143,7 +143,7 @@ publications:
   - title: "Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning"
     link: "https://ieeexplore.ieee.org/document/10802661"
     authors: Kuanqi Cai, Riddhiman Laha, Yuhe Gong, Lingyun Chen, Liding Zhang, Luis Figueredo, Sami Haddadin
-    conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, United Arab Emirates, 2024, pp. 9871-9878, doi: 10.1109/IROS58592.2024.10802661.
+    conference: *2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Abu Dhabi, United Arab Emirates, 2024, pp. 9871-9878, doi: 10.1109/IROS58592.2024.10802661.
 
   # - title: A syntax directed compiler for Algol 60
   #   link: "#"
