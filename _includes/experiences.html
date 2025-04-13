@@ -23,11 +23,15 @@
       <div class="title">{{ experience.title }}</div>
 
 
+      </div><!--//meta-->
+  
       {% if experience.details %}
-      <div class="conference">
+      <div class="details">
         {{ experience.details | markdownify }}
       </div><!--//details-->
       {% endif %}
+  
+    </div><!--//item-->
 
   {% endfor %}
 
