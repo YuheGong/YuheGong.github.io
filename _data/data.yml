@@ -167,7 +167,7 @@ certifications:
     # credentialid:  
     credentialurl: "https://talking-robotics.github.io/overview/" 
     credentialname: "@TalkingRobotics"
-  - name: "The 6th UK Robot Manipulation Workshop • London, UK" 
+  - name: "The 6th UK Robot Manipulation Workshop" 
     start: 07/01/2025
     end: 08/01/2025 
     organization: "Presentation & Poster Demonstrator"
