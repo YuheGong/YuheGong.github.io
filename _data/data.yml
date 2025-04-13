@@ -29,21 +29,23 @@ sidebar:
       level: Professional
 
     - idiom: German
-      level: Fl
+      level: Fluent
     
     
-     Programming:
-    title: Languages
+    title: Programming
     info:
-    - idiom: Chinese
-      level: Native
-
-    - idiom: English
+    - idiom: C++
       level: Professional
 
-    - idiom: German
-      level: Fluents
-    suent
+    - idiom: Python
+      level: Professional
+
+    - idiom: Matlab
+      level: Professional
+
+    - idiom: ROS
+    level: Professional
+    
 
   # interests:
   #   title: Interests
