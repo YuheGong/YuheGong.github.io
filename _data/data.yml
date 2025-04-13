@@ -137,7 +137,7 @@ publications:
     authors: Yuhe Gong, Hao Xing, Guo Yu, Luis FigueredoShape 
     conference: 2025 IEEE International Conference on Robotics and Automation (ICRA). (Accepted) 
 
-  - title: Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning
+  - title: "Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning"
     link: "https://ieeexplore.ieee.org/document/10802661"
     authors: Kuanqi Cai, Riddhiman Laha, Yuhe Gong, Lingyun Chen, Liding Zhang, Luis Figueredo, Sami Haddadin
     conference: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2024: 9871-9878.
