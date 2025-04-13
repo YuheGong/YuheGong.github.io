@@ -10,7 +10,7 @@
   </h2>
 
   {% for experience in experiences.info %}
-  <div class="item">
+  <div class="item" style="margin-bottom: 20 px;"> <!-- MATCHED spacing -->
 
     <div class="meta">
 
@@ -19,7 +19,9 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company" style="font-style: italic; margin-bottom: 0;">{{ experience.company }}</div>
+      <div class="company" style="font-style: italic; margin-bottom: 0;">
+        {{ experience.company }}
+      </div>
 
     </div><!--//meta-->
 
@@ -34,4 +36,3 @@
 
 </section><!--//section-->
 {% endif %}
-
