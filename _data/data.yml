@@ -132,7 +132,7 @@ publications:
   #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
   #   bibendum fringilla a eu lectus.
   papers:
-  - title: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility 
+  - title: "Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility“ 
     link: "#"
     authors: Yuhe Gong, Hao Xing, Guo Yu, Luis FigueredoShape 
     conference: 2025 IEEE International Conference on Robotics and Automation (ICRA). (Accepted) 
