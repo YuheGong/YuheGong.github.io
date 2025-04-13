@@ -79,11 +79,13 @@ education:
   - degree: Ph.D. in Robot Manipulation and Human Robot Interaction (Fully Funded by School of Computer Science) 
     university: University of Nottingham
     time: 2013 - Now
+    |
     Nottingham, United Kingdom
     
   - degree: M.Sc. in Control System and Technology
     university: Karlsruhe Institute of Technology 
     time: 2018 - 2022
+    |
     Karlsruhe, Germany
     
     # details: |
@@ -97,7 +99,8 @@ education:
   - degree: Bachelor in Electrical and Electorinic Engineering
     university: Huazhong University of Science and Technology 
     time: 2013 - 2017
-    place: Wuhan, China
+    |
+    Wuhan, China
     # details: |
     #   Describe your study here lorem ipsum dolor sit amet, consectetuer
     #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -113,33 +116,13 @@ experiences:
   - role: ICRA 2025 RAS Travel Support
     time: 02/2025 
     company: IEEE Robotics and Automation Society 
-    # details: |
-    #   Describe your role here lorem ipsum dolor sit amet, consectetuer
-    #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-    #   Cum sociis natoque penatibus et magnis dis parturient montes,
-    #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
-    #   pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-    #   enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-    #   error sit voluptatem accusantium doloremque laudantium, totam rem
-    #   aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-    #   architecto beatae vitae dicta sunt explicabo.
-    #     - Bullet point
-    #     - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    # details: |
-    #   Describe your role here lorem ipsum dolor sit amet, consectetuer
-    #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-    #   Cum sociis natoque penatibus et magnis dis parturient montes,
-    #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
-    #   pellentesque eu, pretium quis, sem.
-    #     - Bullet point
-    #     - Bullet point
+    details: |
+      Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility
   - role: Best Paper Award 
     time: 07/2023 
     company: Geriatronics Summit 2023
-    # details: |
+    details: |
+      EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms
     #   Describe your role here lorem ipsum dolor sit amet, consectetuer
     #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
     #   Cum sociis natoque penatibus et magnis dis parturient montes,
