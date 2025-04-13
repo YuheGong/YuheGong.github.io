@@ -182,13 +182,16 @@ projects:
   # intro: >
   #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: "Master Thesis"
+  - title: Velocity
+    link: "#hook"
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+  - title: Master Thesis
     link: "#https://github.com/YuheGong/EpisodicTD3.git"
     tagline: "Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm" |
      Supervisor: Prof. Gerhard Neumann
      08/2021 - 03/2022 
      Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology 
-
 
   - title: "Mini Job"
     link: "#https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git"
