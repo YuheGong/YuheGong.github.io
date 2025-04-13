@@ -185,7 +185,7 @@ projects:
   - title: Velocity
     link: "#hook"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
+  
   - title: Master Thesis
     link: "#https://github.com/YuheGong/EpisodicTD3.git"
     tagline: "Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm" |
