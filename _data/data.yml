@@ -193,21 +193,21 @@ projects:
   # intro: >
   #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Master Thesis | Supervised by Prof. Gerhard Neumann | GitRepo 
+  - title: Master Thesis | Prof. Gerhard Neumann 
     link: "https://github.com/YuheGong/EpisodicTD3.git"
     tagline: "Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm"
     time: 08/2021 - 03/2022 
     company: Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology
     details: "EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
   
-  - title: Mini Job | GitRepo 
+  - title: Mini Job 
     link: "https://github.com/YuheGong/TAVAAL-RANK.git"
     tagline: "Reimplementation of Task-aware Variational Adversarial Active Learning"
     time: 06/2021 - 08/2021 
     company: Intelligent System Security Research Group, Karlsruhe Institute of Technology
     details: "EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
   
-  - title: Internship | Supervised by Prof. Gerhard Neumann | GitRepo 
+  - title: Internship | Prof. Gerhard Neumann
     link: "https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git"
     tagline: "Reimplementation of Task-aware Variational Adversarial Active Learning"
     time: 10/2020 - 07/2021
