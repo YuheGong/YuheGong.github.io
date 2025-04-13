@@ -182,7 +182,7 @@ projects:
   # intro: >
   #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Master Thesis
+  - title: "Master Thesis"
     link: "#https://github.com/YuheGong/EpisodicTD3.git"
     tagline: "Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm" |
      Supervisor: Prof. Gerhard Neumann
@@ -190,17 +190,13 @@ projects:
      Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology 
 
 
-  - title: Mini Job
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services"
-
-  - title: Tempo
+  - title: "Mini Job"
     link: "#https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git"
     tagline: "Reimplementation of Task-aware Variational Adversarial Active Learning" |
       06/2021 - 08/2021 
       Intelligent System Security Research Group, Karlsruhe Institute of Technology 
 
-  - title: Internship
+  - title: "Internship"
     link: "#"
     tagline: "Compare Episodic and Step-based Reinforcement Learning" |
       Supervisor: Prof. Gerhard Neumann 
@@ -208,7 +204,7 @@ projects:
       Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology 
 
 
-  - title: Seminar
+  - title: "Seminar"
     link: "#"
     tagline: "Meta-Learning for Robotics" |
        (Supervisor: Prof. Gerhard Neumann) 
