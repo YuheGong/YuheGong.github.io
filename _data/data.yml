@@ -174,7 +174,24 @@ certifications:
     # credentialid:  
     credentialurl: www.robot-manipulation.uk/
     credentialname: "@6thManipulationWorkshop"
-    details: "Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+    details: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+  - name: "Geriatronics Summit 2024" 
+    start: 09/07/24
+    end: 12/07/24
+    organization: "Presentation & Poster Demonstrator"
+    # credentialid:  
+    credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2024/
+    credentialname: "@GeriantronicsSummit2024"
+    details: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+  - name: "Geriatronics Summit 2023" 
+    start: 02/07/23 
+    end: 03/07/23
+    organization: "Presentation & Poster Demonstrator"
+    # credentialid:  
+    credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2023/
+    credentialname: "@GeriantronicsSummit2023"
+    details: "Project - Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm "
+    
     #   Details about cert. Lorem ipsum dolor sit amet, consectetur
     #   adipiscing elit.
     #   Nullam eget orci purus. Nullam ultrices neque nibh.
