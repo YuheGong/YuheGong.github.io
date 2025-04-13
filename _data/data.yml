@@ -62,10 +62,13 @@ education:
   info:
   - degree: Ph.D. in Robot Manipulation and Human Robot Interaction (Fully Funded by School of Computer Science) 
     university: University of Nottingham
-    time: 2013 - Now, United Kingdom
+    time: 2013 - Now
+    place: Nottingham, United Kingdom
+    
   - degree: M.Sc. in Control System and Technology
     university: Karlsruhe Institute of Technology 
-    time: 2018 - 2022, Germany
+    time: 2018 - 2022
+    place: Karlsruhe, Germany
     
     # details: |
     #   Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -77,7 +80,8 @@ education:
     #     - Bullet point
   - degree: Bachelor in Electrical and Electorinic Engineering
     university: Huazhong University of Science and Technology 
-    time: 2013 - 2017, China
+    time: 2013 - 2017
+    place: Wuhan, China
     # details: |
     #   Describe your study here lorem ipsum dolor sit amet, consectetuer
     #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -88,45 +92,45 @@ education:
     #     - Bullet point
 
 experiences:
-  title: Experiences
+  title: AWARDS & SCHOLARSHIPS  
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+  - role: ICRA 2025 RAS Travel Support
+    time: 02/2025 
+    company: IEEE Robotics and Automation Society 
+    # details: |
+    #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #   Cum sociis natoque penatibus et magnis dis parturient montes,
+    #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #   pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+    #   enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+    #   error sit voluptatem accusantium doloremque laudantium, totam rem
+    #   aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+    #   architecto beatae vitae dicta sunt explicabo.
+    #     - Bullet point
+    #     - Bullet point
   - role: Senior Software Engineer
     time: 2014 - 2015
     company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    # details: |
+    #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #   Cum sociis natoque penatibus et magnis dis parturient montes,
+    #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #   pellentesque eu, pretium quis, sem.
+    #     - Bullet point
+    #     - Bullet point
+  - role: Best Paper Award 
+    time: 07/2023 
+    company: Geriatronics Summit 2023
+    # details: |
+    #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #   Cum sociis natoque penatibus et magnis dis parturient montes,
+    #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #   pellentesque eu, pretium quis, sem.
+    #     - Bullet point
+    #     - Bullet point
 
 certifications:
   title: Certifications
