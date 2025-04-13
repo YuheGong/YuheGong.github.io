@@ -164,9 +164,9 @@ certifications:
     start: 01/02/2025
     end: Now 
     organization: Organizer 
-    credentialid: https://talking-robotics.github.io/overview/ 
-    credentialurl: www.google.com
-    credentialname: Google
+    # credentialid:  
+    credentialurl: https://talking-robotics.github.io/overview/ 
+    credentialname: "@TalkingRobotics"
     # details: |
     #   Details about cert. Lorem ipsum dolor sit amet, consectetur
     #   adipiscing elit.
