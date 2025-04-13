@@ -20,14 +20,14 @@
   <div class="item">
 
     <div class="meta">
-      <div class="upper-row">
-        <span class="project-title">
+      <div class="upper-row" style="display: flex; justify-content: space-between;">
+        <h3 class="job-title">
           {% if project.link %}
           <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
           {% else %}
           {{ project.title }}
           {% endif %}
-        </span>
+        </h3>
 
         {% if project.time %}
         <div class="time">{{ project.time }}</div>
