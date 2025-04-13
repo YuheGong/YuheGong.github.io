@@ -78,15 +78,11 @@ education:
   info:
   - degree: Ph.D. in Robot Manipulation and Human Robot Interaction (Fully Funded by School of Computer Science) 
     university: University of Nottingham
-    time: 2013 - Now
-    |
-    Nottingham, United Kingdom
+    time: 2013 - Now, Nottingham, United Kingdom
     
   - degree: M.Sc. in Control System and Technology
     university: Karlsruhe Institute of Technology 
-    time: 2018 - 2022
-    |
-    Karlsruhe, Germany
+    time: 2018 - 2022, Karlsruhe, Germany
     
     # details: |
     #   Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -98,9 +94,7 @@ education:
     #     - Bullet point
   - degree: Bachelor in Electrical and Electorinic Engineering
     university: Huazhong University of Science and Technology 
-    time: 2013 - 2017
-    |
-    Wuhan, China
+    time: 2013 - 2017, Wuhan, China
     # details: |
     #   Describe your study here lorem ipsum dolor sit amet, consectetuer
     #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
