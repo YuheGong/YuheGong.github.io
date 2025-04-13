@@ -173,7 +173,7 @@ certifications:
     organization: "Presentation & Poster Demonstrator"
     # credentialid:  
     credentialurl: www.robot-manipulation.uk/
-    credentialname: "@6thManipulationWorkshop"
+    credentialname: "@6thUKManipulationWorkshop"
     details: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - name: "Geriatronics Summit 2024" 
     start: 09/07/24
