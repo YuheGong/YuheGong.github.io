@@ -212,13 +212,13 @@ projects:
   #     Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology 
 
 
-  - title: "Seminar"
-    link: "#"
-    tagline: "Meta-Learning for Robotics" |
-       (Supervisor: Prof. Gerhard Neumann) 
-       10/2020 - 03/2021 
-        Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology 
-        # Literature Survey for Model-Agnostic Meta-Learning (MAML), Meta-Learning for Model-Based Control (MBML), and Evolutionary Meta-Learning (ES-MAML). 
+  # - title: "Seminar"
+  #   link: "#"
+  #   tagline: "Meta-Learning for Robotics" |
+  #      (Supervisor: Prof. Gerhard Neumann) 
+  #      10/2020 - 03/2021 
+  #       Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology 
+  #       # Literature Survey for Model-Agnostic Meta-Learning (MAML), Meta-Learning for Model-Based Control (MBML), and Evolutionary Meta-Learning (ES-MAML). 
 
 # oss:
 #   title: OSS Contributions
