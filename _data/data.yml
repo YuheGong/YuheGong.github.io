@@ -157,36 +157,35 @@ publications:
   #   link: "#"
   #   authors: Edgar T. Irons
   #   conference: "Comm. ACM 4 (1961), 51–55"
-# certifications:
-#   title: PUBLICATIONS 
-#   list:
-#   - name: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility 
-#     # start: 2020
-#     # end: 2021
-#     organization: 2025 IEEE International Conference on Robotics and Automation (ICRA). (Accepted) 
-#     Yuhe Gong, Hao Xing, Guo Yu, Luis FigueredoShape 
-#     # credentialid: 111-222
-#     # credentialurl: www.google.com
-#     # credentialname: Google
-#     # details: |
-#     #   Details about cert. Lorem ipsum dolor sit amet, consectetur
-#     #   adipiscing elit.
-#     #   Nullam eget orci purus. Nullam ultrices neque nibh.
-#     #   Aenean fermentum, felis vulputate suscipit accumsan,
-#     #   sem enim bibendum augue, sed convallis arcu lacus at dui.
-#     #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#     #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#     #   Praesent venenatis erat non augue suscipit consectetur.
+certifications:
+  title: Activities
+  list:
+  - name: Talking Robotics 
+    start: 01/02/2025
+    end: Now 
+    organization: Organizer 
+    credentialid: https://talking-robotics.github.io/overview/ 
+    credentialurl: www.google.com
+    credentialname: Google
+    # details: |
+    #   Details about cert. Lorem ipsum dolor sit amet, consectetur
+    #   adipiscing elit.
+    #   Nullam eget orci purus. Nullam ultrices neque nibh.
+    #   Aenean fermentum, felis vulputate suscipit accumsan,
+    #   sem enim bibendum augue, sed convallis arcu lacus at dui.
+    #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+    #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+    #   Praesent venenatis erat non augue suscipit consectetur.
 
-#     #   Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-#     #   fringilla vel. Ut euismod, sem sed vulputate venenatis,
-#     #   justo diam viverra velit, sed rhoncus leo leo eu justo.
-#     #   Suspendisse placerat risus ante, sed porta nisi blandit at.
-#   - name: Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning 
-#     # start: 2019
-#     # end:
-#     organization: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2024: 9871-9878. 
-#     Kuanqi Cai, Riddhiman Laha, Yuhe Gong, Lingyun Chen, Liding Zhang, Luis Figueredo, Sami Haddadin
+    #   Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+    #   fringilla vel. Ut euismod, sem sed vulputate venenatis,
+    #   justo diam viverra velit, sed rhoncus leo leo eu justo.
+    #   Suspendisse placerat risus ante, sed porta nisi blandit at.
+  # - name: Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning 
+  #   # start: 2019
+  #   # end:
+  #   organization: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2024: 9871-9878. 
+  #   Kuanqi Cai, Riddhiman Laha, Yuhe Gong, Lingyun Chen, Liding Zhang, Luis Figueredo, Sami Haddadin
     
 projects:
   title: Projects
