@@ -60,28 +60,32 @@ career-profile:
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: Ph.D. in Robot Manipulation and Human Robot Interaction (Fully Funded by School of Computer Science) 
+    university: University of Nottingham
+    time: 2013 - Now, United Kingdom
+  - degree: M.Sc. in Control System and Technology
+    university: Karlsruhe Institute of Technology 
+    time: 2018 - 2022, Germany
+    
+    # details: |
+    #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #   pretium quis, sem.
+    #     - Bullet point
+    #     - Bullet point
+  - degree: Bachelor in Electrical and Electorinic Engineering
+    university: Huazhong University of Science and Technology 
+    time: 2013 - 2017, China
+    # details: |
+    #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #   pretium quis, sem.
+    #     - Bullet point
+    #     - Bullet point
 
 experiences:
   title: Experiences
