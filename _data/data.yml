@@ -116,7 +116,7 @@ experiences:
     details: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - role: International Ph.D. Studentship 
     time: 10/2023 
-    company: School of Computer Science, University of Nottingham |
+    company: School of Computer Science, University of Nottingham 
     # details: "gorithms"
     #   Describe your role here lorem ipsum dolor sit amet, consectetuer
     #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -127,7 +127,7 @@ experiences:
     #     - Bullet point
   - role: Best Paper Award 
     time: 07/2023 
-    company: Geriatronics Summit 2023 |
+    company: Geriatronics Summit 2023 
     details: "Project - EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
     #   Describe your role here lorem ipsum dolor sit amet, consectetuer
     #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -193,16 +193,20 @@ projects:
   # intro: >
   #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Master Thesis
+  - title: Master Thesis | https://github.com/YuheGong/EpisodicTD3.git
     link: "https://github.com/YuheGong/EpisodicTD3.git"
     tagline: "Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm"
+    time: 07/2023 
+    company: Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology
+    details: "Project - EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
+    
 
   - title: Velocity
     link: "#hook"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
   
   
-  # - title: Master Thesis
+  # - title: Master Thesis | https://github.com/YuheGong/EpisodicTD3.git
   #   link: "#https://github.com/YuheGong/EpisodicTD3.git"
   #   tagline: "Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm" |
   #    Supervisor: Prof. Gerhard Neumann
