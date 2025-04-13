@@ -1,4 +1,5 @@
-{% assign certifications = site.data.data.certifications %} {% if certifications %}
+{% assign certifications = site.data.data.certifications %}
+{% if certifications %}
 <section class="section certifications-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -9,44 +10,42 @@
   </h2>
 
   {% for certifications in certifications.list %}
-  <div class="item">
+  <div class="item" style="margin-bottom: 20px;"> <!-- ADD spacing here -->
     <div class="meta">
       <div class="upper-row">
         <h3 class="cert-title">{{ certifications.name }}</h3>
         <div class="time">
-          {{ certifications.start }} {% if certifications.end %} - {{
-          certifications.end }} {% endif %}
+          {{ certifications.start }} {% if certifications.end %} - {{ certifications.end }} {% endif %}
         </div>
-      </div>
-      <!--//upper-row-->
+      </div><!--//upper-row-->
 
       <div class="second-upper-row">
-        <div class="cert-org style="margin-bottom: 0;">
-          {{ certifications.organization }} {% if certifications.credentialid %}
-          ({{ certifications.credentialid }}) {% endif %}
+        <div class="cert-org" style="margin-bottom: 0;"> <!-- FIXED style position -->
+          {{ certifications.organization }}
+          {% if certifications.credentialid %}
+          ({{ certifications.credentialid }})
+          {% endif %}
         </div>
+
         {% if certifications.credentialurl %}
         <div class="cert-url">
           <a
             href="//{{ certifications.credentialurl }}"
             target="_blank"
-            rel="noreferrer nofollow noopener"
-            >{{ certifications.credentialname }}</a
-          >
+            rel="noreferrer nofollow noopener">
+            {{ certifications.credentialname }}
+          </a>
         </div>
         {% endif %}
       </div>
-    </div>
-    <!--//meta-->
+    </div><!--//meta-->
 
     {% if certifications.details %}
     <div class="details" style="margin-top: 4px;">
       {{ certifications.details | markdownify }}
     </div>
-{% endif %}
-  </div>
-  <!--//item-->
+    {% endif %}
+  </div><!--//item-->
   {% endfor %}
-</section>
-<!--//section-->
+</section><!--//section-->
 {% endif %}
