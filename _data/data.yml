@@ -8,57 +8,42 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Yuhe Gong
+  tagline: Robotic Researcher
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
-
+  email: yuhe.gong@nottingham.ac.uk
+  timezone: UK/GMT # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  linkedin: Yuhe Gong
+  github: YuheGong
+  twitter: '@yuhe_gong'
+  
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Chinese
       level: Native
 
-    - idiom: French
+    - idiom: English
       level: Professional
 
-    - idiom: Spanish
-      level: Professional
+    - idiom: German
+      level: Fluent
 
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
+  # interests:
+  #   title: Interests
+  #   info:
+  #   - item: Climbing
+  #     link:
 
 
-    - item: Cooking
-      link:
+  #   - item: Snowboarding
+  #     link:
+
+
+  #   - item: Cooking
+  #     link:
 
 
 career-profile:
