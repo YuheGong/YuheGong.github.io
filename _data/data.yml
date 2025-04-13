@@ -29,7 +29,21 @@ sidebar:
       level: Professional
 
     - idiom: German
-      level: Fluent
+      level: Fl
+    
+    
+     Programming:
+    title: Languages
+    info:
+    - idiom: Chinese
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+    - idiom: German
+      level: Fluents
+    suent
 
   # interests:
   #   title: Interests
@@ -63,12 +77,12 @@ education:
   - degree: Ph.D. in Robot Manipulation and Human Robot Interaction (Fully Funded by School of Computer Science) 
     university: University of Nottingham
     time: 2013 - Now
-    place: Nottingham, United Kingdom
+    Nottingham, United Kingdom
     
   - degree: M.Sc. in Control System and Technology
     university: Karlsruhe Institute of Technology 
     time: 2018 - 2022
-    place: Karlsruhe, Germany
+    Karlsruhe, Germany
     
     # details: |
     #   Describe your study here lorem ipsum dolor sit amet, consectetuer
