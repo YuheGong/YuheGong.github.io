@@ -193,17 +193,26 @@ projects:
   # intro: >
   #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Master Thesis | https://github.com/YuheGong/EpisodicTD3.git
+  - title: Master Thesis | Supervised by Prof. Gerhard Neumann | GitRepo 
     link: "https://github.com/YuheGong/EpisodicTD3.git"
     tagline: "Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm"
-    time: 07/2023 
+    time: 08/2021 - 03/2022 
     company: Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology
-    details: "Project - EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
-    
-
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    details: "EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
+  
+  - title: Mini Job | GitRepo 
+    link: "https://github.com/YuheGong/TAVAAL-RANK.git"
+    tagline: "Reimplementation of Task-aware Variational Adversarial Active Learning"
+    time: 06/2021 - 08/2021 
+    company: Intelligent System Security Research Group, Karlsruhe Institute of Technology
+    details: "EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
+  
+  - title: Internship | Supervised by Prof. Gerhard Neumann | GitRepo 
+    link: "https://github.com/YuheGong/Compare-Episodic-and-Step-based-Reinforcement-Learning.git"
+    tagline: "Reimplementation of Task-aware Variational Adversarial Active Learning"
+    time: 10/2020 - 07/2021
+    company: Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology
+    details: "Compare Episodic and Step-based Reinforcement Learning"
   
   
   # - title: Master Thesis | https://github.com/YuheGong/EpisodicTD3.git
