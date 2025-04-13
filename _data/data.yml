@@ -161,15 +161,15 @@ certifications:
   title: Activities
   list:
   - name: Talking Robotics 
-    start: 01/02/2025
+    start: 01/02/25
     end: Now 
     organization: Organizer 
     # credentialid:  
     credentialurl: talking-robotics.github.io/overview/ 
     credentialname: "@TalkingRobotics"
   - name: "The 6th UK Robot Manipulation Workshop" 
-    start: 07/01/2025
-    end: 08/01/2025 
+    start: 07/01/25
+    end: 08/01/25 
     organization: "Presentation & Poster Demonstrator"
     # credentialid:  
     credentialurl: www.robot-manipulation.uk/
