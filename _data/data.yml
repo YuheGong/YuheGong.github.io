@@ -18,13 +18,13 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: Chinese
+    - idiom: Chinese / 中文
       level: Native
 
     - idiom: English
       level: Professional
 
-    - idiom: German
+    - idiom: German / Deutsch
       level: Fluent
 
 education:
