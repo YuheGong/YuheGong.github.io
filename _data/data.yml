@@ -83,8 +83,8 @@ experiences:
     company: "Geriatronics Summit 2023 - EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
 
 
-certifications:
-  title: Activities
+Oss:
+  title: Roles
   list:
   - name: Talking Robotics 
     start: 01/02/25
@@ -98,6 +98,16 @@ certifications:
     organization: Student Representative
     credentialurl: https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
     credentialname: "@APCRM" 
+
+certifications:
+  title: Activities
+  list:
+  - name: Talking Robotics 
+    start: 01/02/25
+    end: Now 
+    organization: Organizer  
+    credentialurl: talking-robotics.github.io/overview/ 
+    credentialname: "@TalkingRobotics"
   - name: "ICRA 2025 (IEEE International Conference on Robotics and Automation)" 
     start: 19/05/25
     end: 24/05/25
