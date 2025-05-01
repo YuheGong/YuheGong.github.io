@@ -102,12 +102,6 @@ Oss:
 certifications:
   title: Activities
   list:
-  - name: Talking Robotics 
-    start: 01/02/25
-    end: Now 
-    organization: Organizer  
-    credentialurl: talking-robotics.github.io/overview/ 
-    credentialname: "@TalkingRobotics"
   - name: "ICRA 2025 (IEEE International Conference on Robotics and Automation)" 
     start: 19/05/25
     end: 24/05/25
