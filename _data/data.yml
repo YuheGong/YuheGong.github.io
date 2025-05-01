@@ -172,11 +172,11 @@ certifications:
   - name: "The 6th UK Robot Manipulation Workshop" 
     start: 07/01/25
     end: 08/01/25 
-    organization: "Presentation & Poster Demonstrator - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+    organization: "Presentation & Poster Demonstrator"
     # credentialid:  
     credentialurl: www.robot-manipulation.uk/
     credentialname: "@6thUKManipulationWorkshop"
-    organization: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+    details: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - name: "Geriatronics Summit 2024" 
     start: 09/07/24
     end: 12/07/24
