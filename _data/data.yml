@@ -95,11 +95,11 @@ certifications:
   - name: "ICRA (IEEE International Conference on Robotics and Automation) 2025" 
     start: 19/05/25
     end: 24/05/25
-    organization: "Presentation & Poster Demonstrator"
+    organization: "Presentation & Poster Demonstrator <br> Student Representative on TC of Algorithms for Planning and Control of Robot Motion (APCRM)"
     # credentialid:  
-    credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2023/ <br> geriatronics.mirmi.tum.de/en/geriatronics-summit-2023/
-    credentialname: "@GeriantronicsSummit2023 <br> @1111"
-    details: "• Main Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (How do Robots Care? Innovative Strategies and Interfaces for Physically Assistive Robots in Healthcare): Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (Beyond the Lab: Robust Planning and Control in Real World Scenarios): GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments"
+    credentialurl: https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
+    credentialname: "@APCRM"
+    details: "• Paper Presentation: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (How do Robots Care? Innovative Strategies and Interfaces for Physically Assistive Robots in Healthcare): Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (Beyond the Lab: Robust Planning and Control in Real World Scenarios): GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments"
   - name: "The 6th UK Robot Manipulation Workshop" 
     start: 07/01/25
     end: 08/01/25 
