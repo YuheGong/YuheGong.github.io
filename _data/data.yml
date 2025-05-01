@@ -112,8 +112,8 @@ experiences:
   info:
   - role: ICRA 2025 RAS Travel Support
     time: 02/2025 
-    company: IEEE Robotics and Automation Society 
-    details: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+    company: IEEE Robotics and Automation Society - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility
+    # details: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - role: International Ph.D. Studentship 
     time: 10/2023 
     company: School of Computer Science, University of Nottingham 
@@ -127,8 +127,8 @@ experiences:
     #     - Bullet point
   - role: Best Paper Award 
     time: 07/2023 
-    company: Geriatronics Summit 2023 
-    details: "Project - EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
+    company: Geriatronics Summit 2023 - EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms
+    # details: "Project - EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms"
     #   Describe your role here lorem ipsum dolor sit amet, consectetuer
     #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
     #   Cum sociis natoque penatibus et magnis dis parturient montes,
