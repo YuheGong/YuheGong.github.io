@@ -92,13 +92,19 @@ certifications:
     organization: Organizer  
     credentialurl: talking-robotics.github.io/overview/ 
     credentialname: "@TalkingRobotics"
-  - name: "ICRA (IEEE International Conference on Robotics and Automation) 2025" 
+  - name: IEEE RAS Technical Committee of Algorithms for Planning and Control of Robot Motion (APCRM) 
+    start: 01/04/25
+    end: Now 
+    organization: Student Representative
+    credentialurl: https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
+    credentialname: "@APCRM" 
+  - name: "ICRA 2025 (IEEE International Conference on Robotics and Automation)" 
     start: 19/05/25
     end: 24/05/25
-    organization: "Student Representative on Technical Committee of Algorithms <br> for Planning and Control of Robot Motion (APCRM) & Presentation & Poster Demonstrator "
+    organization: "Student Representative on APCRM & Presentation & Poster Demonstrator "
     # credentialid:  
-    credentialurl: https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
-    credentialname: "@APCRM"
+    credentialurl: https://2025.ieee-icra.org/
+    credentialname: "@ICRA2025"
     details: "• Paper Presentation: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (How do Robots Care? Innovative Strategies and Interfaces for Physically Assistive Robots in Healthcare): Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (Beyond the Lab: Robust Planning and Control in Real World Scenarios): GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments"
   - name: "The 6th UK Robot Manipulation Workshop" 
     start: 07/01/25
