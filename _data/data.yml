@@ -95,7 +95,7 @@ certifications:
   - name: "ICRA (IEEE International Conference on Robotics and Automation) 2025" 
     start: 19/05/25
     end: 24/05/25
-    organization: "Presentation & Poster Demonstrator <br> Student Representative on TC of Algorithms for Planning and Control of Robot Motion (APCRM)"
+    organization: "Student Representative on Technical Committee of Algorithms <br> for Planning and Control of Robot Motion (APCRM) & Presentation & Poster Demonstrator "
     # credentialid:  
     credentialurl: https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
     credentialname: "@APCRM"
