@@ -1,53 +1,85 @@
-
-
- {% assign certifications = site.data.data.certifications %}
-{% if certifications %}
-<section class="section certifications-section">
+{% assign oss = site.data.data.oss %}
+{% if oss %}
+<section class="section oss-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
     </span>
-    {{ certifications.title }}
+    {{ oss.title }}
   </h2>
 
-  {% for certifications in certifications.list %}
-  <div class="item" style="margin-bottom: 20px;"> <!-- ADD spacing here -->
-    <div class="meta">
-      <div class="upper-row">
-        <h3 class="cert-title">{{ certifications.name }}</h3>
-        <div class="time">
-          {{ certifications.start }} {% if certifications.end %} - {{ certifications.end }} {% endif %}
-        </div>
-      </div><!--//upper-row-->
+  {% if oss.intro %}
+  <div class="intro">
+    <p>{{ oss.intro }}</p>
+  </div>
+  <!--//intro-->
+  {% endif %}
 
-      <div class="second-upper-row">
-        <div class="publication-authors" style="margin-bottom: 0;"> <!-- FIXED style position -->
-          {{ certifications.organization }}
-          {% if certifications.credentialid %}
-          ({{ certifications.credentialid }})
-          {% endif %}
-        </div>
+  {% for contribution in oss.contributions %}
+  <div class="item">
 
-        {% if certifications.credentialurl %}
-        <div class="cert-url">
-          <a
-            href="//{{ certifications.credentialurl }}"
-            target="_blank"
-            rel="noreferrer nofollow noopener">
-            {{ certifications.credentialname }}
-          </a>
-        </div>
-        {% endif %}
-      </div>
-    </div><!--//meta-->
+    <span class="project-title">
+      {% if contribution.link %}
+      <a href="{{ contribution.link }}" target="_blank">{{ contribution.title }}</a>
+      {% else %}
+      {{ contribution.title }}
+      {% endif %}
+    </span>
 
-    {% if certifications.details %}
-    <div class="cert-org" style="margin-top: 0; color: gray;">
-      {{ certifications.details | markdownify }}
-    </div>
+    {% if contribution.tagline %}
+    - <span class="project-tagline">{{ contribution.tagline }}</span>
     {% endif %}
-  </div><!--//item-->
+
+  </div>
+  <!--//item-->
   {% endfor %}
-</section><!--//section-->
+
+
+
+
+
+
+
+   {% for oss in oss.list %}
+   <div class="item" style="margin-bottom: 20px;"> <!-- ADD spacing here -->
+     <div class="meta">
+       <div class="upper-row">
+         <h3 class="cert-title">{{ oss.name }}</h3>
+         <div class="time">
+           {{ oss.start }} {% if oss.end %} - {{ oss.end }} {% endif %}
+         </div>
+       </div><!--//upper-row-->
+ 
+       <div class="second-upper-row">
+         <div class="publication-authors" style="margin-bottom: 0;"> <!-- FIXED style position -->
+           {{ oss.organization }}
+           {% if oss.credentialid %}
+           ({{ oss.credentialid }})
+           {% endif %}
+         </div>
+ 
+         {% ifoss.credentialurl %}
+         <div class="cert-url">
+           <a
+             href="//{{ oss.credentialurl }}"
+             target="_blank"
+             rel="noreferrer nofollow noopener">
+             {{ oss.credentialname }}
+           </a>
+         </div>
+         {% endif %}
+       </div>
+     </div><!--//meta-->
+ 
+     {% if oss.details %}
+     <div class="cert-org" style="margin-top: 0; color: gray;">
+       {{ oss.details | markdownify }}
+     </div>
+     {% endif %}
+
+</section>
+<!--//section-->
 {% endif %}
+
+
