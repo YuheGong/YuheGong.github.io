@@ -92,20 +92,28 @@ certifications:
     organization: Organizer  
     credentialurl: talking-robotics.github.io/overview/ 
     credentialname: "@TalkingRobotics"
+  - name: "ICRA (IEEE International Conference on Robotics and Automation) 2025" 
+    start: 19/05/25
+    end: 24/05/25
+    organization: "Presentation & Poster Demonstrator"
+    # credentialid:  
+    credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2023/ <br> geriatronics.mirmi.tum.de/en/geriatronics-summit-2023/
+    credentialname: "@GeriantronicsSummit2023 <br> @1111"
+    details: "• Main Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (How do Robots Care? Innovative Strategies and Interfaces for Physically Assistive Robots in Healthcare): Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (Beyond the Lab: Robust Planning and Control in Real World Scenarios): GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments"
   - name: "The 6th UK Robot Manipulation Workshop" 
     start: 07/01/25
     end: 08/01/25 
     organization: "Presentation & Poster Demonstrator" 
     credentialurl: www.robot-manipulation.uk/
     credentialname: "@6thUKManipulationWorkshop"
-    details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+    details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - name: "Geriatronics Summit 2024" 
     start: 09/07/24
     end: 12/07/24
     organization: "Presentation & Poster Demonstrator"
     credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2024/
     credentialname: "@GeriantronicsSummit2024"
-    details: "Project - Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+    details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - name: "Geriatronics Summit 2023" 
     start: 02/07/23 
     end: 03/07/23
@@ -113,7 +121,7 @@ certifications:
     # credentialid:  
     credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2023/
     credentialname: "@GeriantronicsSummit2023"
-    details: "Project - Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm "
+    details: "• Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm "
 
   
 projects:
