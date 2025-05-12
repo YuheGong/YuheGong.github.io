@@ -60,7 +60,7 @@ publications:
   papers:
   - title: "Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility“ 
     # link: "#"
-    authors: Yuhe Gong, Hao Xing, Guo Yu, Luis FigueredoShape 
+    authors: Yuhe Gong, Hao Xing, Guo Yu, Luis Figueredo
     conference: 2025 IEEE International Conference on Robotics and Automation (ICRA). (Accepted) 
 
   - title: "Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning"
