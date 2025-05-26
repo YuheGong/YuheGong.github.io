@@ -122,7 +122,7 @@ certifications:
   - name: "The 6th UK Robot Manipulation Workshop" 
     start: 07/01/25
     end: 08/01/25 
-    organization: "Presentation & Poster Demonstrator" 
+    organization: "Presentation & Poster" 
     credentialurl: www.robot-manipulation.uk/
     credentialname: "@6thUKManipulationWorkshop"
     details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
