@@ -86,18 +86,18 @@ experiences:
 oss:
   title: Roles
   list:
-  - name: IEEE RAS Technical Committee of Algorithms for Planning and Control of Robot Motion (APCRM) 
-    start: 01/04/25
-    end: Now 
-    organization: Student Representative
-    credentialurl: https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
-    credentialname: "@APCRM" 
   - name: ICRA2025
     start: 19/05/25
     end: 23/05/25 
     organization: Social Media Ambassador
     credentialurl: https://2025.ieee-icra.org/
     credentialname: "@ICRA2025" 
+  - name: IEEE RAS Technical Committee of Algorithms for Planning and Control of Robot Motion (APCRM) 
+    start: 01/04/25
+    end: Now 
+    organization: Student Representative
+    credentialurl: https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
+    credentialname: "@APCRM" 
   - name: Talking Robotics 
     start: 01/02/25
     end: Now 
@@ -115,7 +115,7 @@ certifications:
     # credentialid:  
     credentialurl: 2025.ieee-icra.org/
     credentialname: "@ICRA2025"
-    details: "• Paper Presentation: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (How do Robots Care? Innovative Strategies and Interfaces for Physically Assistive Robots in Healthcare): Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (Beyond the Lab: Robust Planning and Control in Real World Scenarios): GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments"
+    details: "• Paper Presentation: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (How do Robots Care? Innovative Strategies and Interfaces for Physically Assistive Robots in Healthcare): Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility <br> • Workshop (Beyond the Lab: Robust Planning and Control in Real World Scenarios): GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments  <br> • Competition (PhyRC: Physical Robotic Caregiving Challenge)"
   - name: "The 6th UK Robot Manipulation Workshop" 
     start: 07/01/25
     end: 08/01/25 
