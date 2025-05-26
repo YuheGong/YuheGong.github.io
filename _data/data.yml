@@ -114,7 +114,7 @@ certifications:
   - name: "ICRA 2025 (IEEE International Conference on Robotics and Automation)" 
     start: 19/05/25
     end: 24/05/25
-    organization: "Student Representative on APCRM & Presentation & Poster Demonstrator "
+    organization: "Presentation & Poster"
     # credentialid:  
     credentialurl: 2025.ieee-icra.org/
     credentialname: "@ICRA2025"
@@ -129,14 +129,14 @@ certifications:
   - name: "Geriatronics Summit 2024" 
     start: 09/07/24
     end: 12/07/24
-    organization: "Presentation & Poster Demonstrator"
+    organization: "Presentation & Poster"
     credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2024/
     credentialname: "@GeriantronicsSummit2024"
     details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - name: "Geriatronics Summit 2023" 
     start: 02/07/23 
     end: 03/07/23
-    organization: "Presentation & Poster Demonstrator"
+    organization: "Presentation & Poster"
     # credentialid:  
     credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2023/
     credentialname: "@GeriantronicsSummit2023"
