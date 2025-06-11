@@ -58,7 +58,7 @@ career-profile:
 publications:
   title: Publications
   papers:
-  - title: "GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments“ 
+  - title: "GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments" 
     link: "https://arxiv.org/abs/2505.19688"
     authors: "Yuhe Gong, Riddhiman Laha, Luis Figueredo"
     conference: "2025 Robotics and Automation Letters. (Submitted)" 
