@@ -63,7 +63,7 @@ publications:
     authors: "Yuhe Gong, Riddhiman Laha, Luis Figueredo"
     conference: "2025 Robotics and Automation Letters. (Submitted)" 
 
-  - title: "GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters“ 
+  - title: "GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters"
     link: "https://arxiv.org/abs/2503.03992"
     authors: "Pablo C. Lopez-Custodio, Yuhe Gong, Luis Figueredo"
     conference: "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). (Submitted)" 
