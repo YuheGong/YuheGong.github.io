@@ -83,7 +83,7 @@ experiences:
   info:
   - role: "Best Project-Idea Award"
     time: 07/2025 
-    company: "First Geriantronic Summer School"
+    company: "Geriantronic Summer School 2025"
   - role: "ICRA 2025 Competition (PhyRC: Physical Robotic Caregiving Challenge) Winner"
     time: 05/2025 
     company: "ICRA 2025"
@@ -124,17 +124,17 @@ oss:
 certifications:
   title: Activities
   list:
-  - name: "First Geriatronics Summer School 2025" 
+  - name: "Geriatronics Summer School 2025" 
     start: 07/07/25
     end: 10/07/25
-    organization: "Attender"
+    organization: "Attender - Garmisch-Partenkirchen, Germany"
     credentialurl: www.mirmi.tum.de/en/geriatronics/news/article/summer-school/
-    credentialname: "@1stGeriantronicsSummerSchool"
+    credentialname: "@GeriantronicsSummerSchool2025"
     details: "• Team: Safe Physical Human-Robot Interaction for Frail Users"
   - name: "Automcatica 2025" 
     start: 24/06/25
     end: 27/06/25
-    organization: "Exhibitor"
+    organization: "Exhibitor - Munich, Germany"
     credentialurl: automatica-munich.com/en/automatica-news/
     credentialname: "@Automatica2025"
     details: "• Exhibition: Safety Serving Robot - Guarantee Human Robot Interaction While Robot Serves Around Us"
@@ -142,7 +142,7 @@ certifications:
   - name: "ICRA 2025 (IEEE International Conference on Robotics and Automation)" 
     start: 19/05/25
     end: 24/05/25
-    organization: "Presentation & Poster"
+    organization: "Presentation & Poster - Atlanta, USA"
     # credentialid:  
     credentialurl: 2025.ieee-icra.org/
     credentialname: "@ICRA2025"
@@ -150,21 +150,21 @@ certifications:
   - name: "The 6th UK Robot Manipulation Workshop" 
     start: 07/01/25
     end: 08/01/25 
-    organization: "Presentation & Poster" 
+    organization: "Presentation & Poster - London, UK" 
     credentialurl: www.robot-manipulation.uk/
     credentialname: "@6thUKManipulationWorkshop"
     details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
-  # - name: "Geriatronics Summit 2024" 
-  #   start: 09/07/24
-  #   end: 12/07/24
-  #   organization: "Presentation & Poster"
-  #   credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2024/
-  #   credentialname: "@GeriantronicsSummit2024"
-  #   details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+  - name: "Geriatronics Summit 2024" 
+    start: 09/07/24
+    end: 12/07/24
+    organization: "Presentation & Poster - Garmisch-Partenkirchen, Germany"
+    credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2024/
+    credentialname: "@GeriantronicsSummit2024"
+    details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - name: "Geriatronics Summit 2023" 
     start: 02/07/23 
     end: 03/07/23
-    organization: "Presentation & Poster"
+    organization: "Presentation & Poster - Garmisch-Partenkirchen, Germany"
     # credentialid:  
     credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2023/
     credentialname: "@GeriantronicsSummit2023"
