@@ -121,6 +121,14 @@ oss:
 certifications:
   title: Activities
   list:
+  - name: "Automcatica 2025" 
+    start: 24/06/25
+    end: 27/06/25
+    organization: "Exhibitor"
+    credentialurl: https://automatica-munich.com/en/automatica-news/
+    credentialname: "@Automatica2025"
+    details: "• Exhibition: Safety Serving Robot - Guarantee Human Robot Interaction While Robot Serves Around Us"
+
   - name: "ICRA 2025 (IEEE International Conference on Robotics and Automation)" 
     start: 19/05/25
     end: 24/05/25
@@ -136,13 +144,13 @@ certifications:
     credentialurl: www.robot-manipulation.uk/
     credentialname: "@6thUKManipulationWorkshop"
     details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
-  - name: "Geriatronics Summit 2024" 
-    start: 09/07/24
-    end: 12/07/24
-    organization: "Presentation & Poster"
-    credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2024/
-    credentialname: "@GeriantronicsSummit2024"
-    details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+  # - name: "Geriatronics Summit 2024" 
+  #   start: 09/07/24
+  #   end: 12/07/24
+  #   organization: "Presentation & Poster"
+  #   credentialurl: geriatronics.mirmi.tum.de/en/geriatronics-summit-2024/
+  #   credentialname: "@GeriantronicsSummit2024"
+  #   details: "• Workshop Session: Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
   - name: "Geriatronics Summit 2023" 
     start: 02/07/23 
     end: 03/07/23
