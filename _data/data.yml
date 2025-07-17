@@ -81,6 +81,9 @@ publications:
 experiences:
   title: AWARDS & SCHOLARSHIPS & Fundings
   info:
+  - role: "Best Project-Idea Award"
+    time: 07/2025 
+    company: "First Geriantronic Summer School"
   - role: "ICRA 2025 Competition (PhyRC: Physical Robotic Caregiving Challenge) Winner"
     time: 05/2025 
     company: "ICRA 2025"
@@ -121,11 +124,18 @@ oss:
 certifications:
   title: Activities
   list:
+  - name: "First Geriatronics Summer School 2025" 
+    start: 07/07/25
+    end: 10/07/25
+    organization: "Attender"
+    credentialurl: www.mirmi.tum.de/en/geriatronics/news/article/summer-school/
+    credentialname: "@1stGeriantronicsSummerSchool"
+    details: "• Team: Safe Physical Human-Robot Interaction for Frail Users"
   - name: "Automcatica 2025" 
     start: 24/06/25
     end: 27/06/25
     organization: "Exhibitor"
-    credentialurl: https://automatica-munich.com/en/automatica-news/
+    credentialurl: automatica-munich.com/en/automatica-news/
     credentialname: "@Automatica2025"
     details: "• Exhibition: Safety Serving Robot - Guarantee Human Robot Interaction While Robot Serves Around Us"
 
