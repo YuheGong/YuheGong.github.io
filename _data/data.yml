@@ -106,13 +106,13 @@ oss:
     start: 19/05/25
     end: 23/05/25 
     organization: Social Media Ambassador
-    credentialurl: https://2025.ieee-icra.org/
+    credentialurl: 2025.ieee-icra.org/
     credentialname: "@ICRA2025" 
   - name: IEEE RAS Technical Committee of Algorithms for Planning and Control of Robot Motion (APCRM) 
     start: 01/04/25
     end: Now 
     organization: Student Representative
-    credentialurl: https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
+    credentialurl: www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
     credentialname: "@APCRM" 
   - name: Talking Robotics 
     start: 01/02/25
