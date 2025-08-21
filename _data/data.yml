@@ -61,7 +61,7 @@ publications:
   - title: "GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments" 
     link: "https://arxiv.org/abs/2505.19688"
     authors: "Yuhe Gong, Riddhiman Laha, Luis Figueredo"
-    conference: "2025 Robotics and Automation Letters. (Under Revised Review)" 
+    conference: "2025 Robotics and Automation Letters. (accepted)" 
 
   - title: "GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters"
     link: "https://arxiv.org/abs/2503.03992"
