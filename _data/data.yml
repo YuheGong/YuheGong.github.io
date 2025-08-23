@@ -48,8 +48,8 @@ career-profile:
   summary: |
     __Robot Manipulation and Human Robot Interaction__
     
-    I am a second-year Ph.D. student at the University of Nottingham
-    starting from October 2023, under the supervision of Dr. Luis Figueredo and Dr. Ayse Kucukyilmaz. 
+    I am a Ph.D. student at the University of Nottingham
+    starting from October 2023, under the supervision of Dr. Luis Figueredo (1st) and Dr. Ayse Kucukyilmaz (2nd). 
     My PhD topic is robotic control, manipulation, and physical 
     human-robot interaction. I am interested in geometric methods for 
     intelligent robots, focusing on developing mathematical frameworks 
@@ -61,7 +61,7 @@ publications:
   - title: "GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments" 
     link: "https://arxiv.org/abs/2505.19688"
     authors: "Yuhe Gong, Riddhiman Laha, Luis Figueredo"
-    conference: "2025 Robotics and Automation Letters. (accepted)" 
+    conference: "2025 Robotics and Automation Letters. (Accepted)" 
 
   - title: "GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters"
     link: "https://arxiv.org/abs/2503.03992"
