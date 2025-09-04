@@ -70,12 +70,12 @@ publications:
 
   - title: "Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility“ 
     # link: "https://ieeexplore.ieee.org/document/11127841"
-    authors: Yuhe Gong, Hao Xing, Guo Yu, Luis Figueredo
-    # conference:  "2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, pp. 4572-4578, doi: 10.1109/ICRA55743.2025.11127841."
+    authors: "Yuhe Gong, Hao Xing, Guo Yu, Luis Figueredo"
+    conference:  "ICRA" #"2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, pp. 4572-4578, doi: 10.1109/ICRA55743.2025.11127841."
 
   - title: "Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning"
     link: "https://ieeexplore.ieee.org/document/10802661"
-    authors: Kuanqi Cai, Riddhiman Laha, Yuhe Gong, Lingyun Chen, Liding Zhang, Luis Figueredo, Sami Haddadin
+    authors: "Kuanqi Cai, Riddhiman Laha, Yuhe Gong, Lingyun Chen, Liding Zhang, Luis Figueredo, Sami Haddadin"
     conference: "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, United Arab Emirates, 2024, pp. 9871-9878, doi: 10.1109/IROS58592.2024.10802661."
 
 experiences:
