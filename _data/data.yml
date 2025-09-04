@@ -58,10 +58,10 @@ career-profile:
 publications:
   title: Publications
   papers:
-  # - title: "ZLATTE: A Geometry-Aware, Learning-Free Framework for Language-Driven Trajectory Reshaping in Human-Robot Interaction"
-  #   link: "#"
-  #   authors: "Pablo C. Lopez-Custodio, Yuhe Gong, Luis Figueredo"
-  #   conference: "In Preparation." 
+  - title: "ZLATTE: A Geometry-Aware, Learning-Free Framework for Language-Driven Trajectory Reshaping in Human-Robot Interaction"
+    link: "#"
+    authors: "Junhui Huang, Yuhe Gong, Luis Figueredo"
+    conference: "Under Review." 
 
   - title: "Biomimetic cues enable predictive mechanisms in simulated and physical robot-human object handovers"
     link: "#"
