@@ -58,15 +58,25 @@ career-profile:
 publications:
   title: Publications
   papers:
+  # - title: "ZLATTE: A Geometry-Aware, Learning-Free Framework for Language-Driven Trajectory Reshaping in Human-Robot Interaction"
+  #   link: "#"
+  #   authors: "Pablo C. Lopez-Custodio, Yuhe Gong, Luis Figueredo"
+  #   conference: "In Preparation." 
+
+  - title: "Biomimetic cues enable predictive mechanisms in simulated and physical robot-human object handovers"
+    link: "#"
+    authors: "Clara Günter, Yuhe Gong, Riddhiman Laha, Simon Appoltshauser, Luis Figueredo, Joachim Hermsdörfer, David W. Franklin"
+    conference: "Under Review." 
+    
+  - title: "GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters"
+    link: "https://arxiv.org/abs/2503.03992"
+    authors: "Pablo C. Lopez-Custodio, Yuhe Gong, Luis Figueredo"
+    conference: "ICRA 2026 (Submitted)." 
+    
   - title: "GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments" 
     link: "https://arxiv.org/abs/2505.19688"
     authors: "Yuhe Gong, Riddhiman Laha, Luis Figueredo"
     conference: "2025 Robotics and Automation Letters. (Accepted)" 
-
-  - title: "GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters"
-    link: "https://arxiv.org/abs/2503.03992"
-    authors: "Pablo C. Lopez-Custodio, Yuhe Gong, Luis Figueredo"
-    conference: "In Preparation." 
 
   - title: "Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
     link: "https://ieeexplore.ieee.org/document/11127841"
