@@ -68,11 +68,10 @@ publications:
     authors: "Pablo C. Lopez-Custodio, Yuhe Gong, Luis Figueredo"
     conference: "In Preparation." 
 
-  # - title: "Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility“ 
-  #   link: "https://ieeexplore.ieee.org/document/11127841"
-  #   authors: "Yuhe Gong, Hao Xing, Guo Yu, Luis Figueredo"
-  #   conference:  "ICRA" 
-  #   #"2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, pp. 4572-4578, doi: 10.1109/ICRA55743.2025.11127841."
+  - title: "Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility"
+    link: "https://ieeexplore.ieee.org/document/11127841"
+    authors: "Yuhe Gong, Hao Xing, Guo Yu, Luis Figueredo"
+    conference: "2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, pp. 4572-4578, doi: 10.1109/ICRA55743.2025.11127841."
 
   - title: "Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning"
     link: "https://ieeexplore.ieee.org/document/10802661"
