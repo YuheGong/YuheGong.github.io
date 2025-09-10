@@ -59,7 +59,7 @@ publications:
   title: Publications
   papers:
   - title: "ZLATTE: A Geometry-Aware, Learning-Free Framework for Language-Driven Trajectory Reshaping in Human-Robot Interaction"
-    link: "#"
+    link: "https://arxiv.org/abs/2509.06031"
     authors: "Junhui Huang, Yuhe Gong, Luis Figueredo"
     conference: "Under Review." 
 
