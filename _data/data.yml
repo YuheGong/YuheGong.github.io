@@ -64,7 +64,7 @@ publications:
     conference: "Under Review." 
 
   - title: "Biomimetic cues enable predictive mechanisms in simulated and physical robot-human object handovers"
-    link: "#"
+    link: "https://www.biorxiv.org/content/10.1101/2025.10.14.682495v1.abstract"
     authors: "Clara Günter, Yuhe Gong, Riddhiman Laha, Simon Appoltshauser, Luis Figueredo, Joachim Hermsdörfer, David W. Franklin"
     conference: "Under Review." 
     
@@ -93,7 +93,7 @@ experiences:
   info:
   - role: "Best Student Paper Award"
     time: 10/2025 
-    company: "IROS 2025 Workshop (Building Safe Robots) - GeoCopilot: What Does Geometry Mean for Robots?"
+    company: "IROS 2025 Workshop (Building Safe Robots A Holistic Integrated View on Safety from Modelling, Control & Implementation) - GeoCopilot: What Does Geometry Mean for Robots?"
   - role: "Best Project-Idea Award "
     time: 07/2025 
     company: "Geriantronic Summer School 2025 - Safe Physical Human-Robot Interaction for Frail Users"
