@@ -91,6 +91,9 @@ publications:
 experiences:
   title: AWARDS & SCHOLARSHIPS & Fundings
   info:
+  - role: "Best Student Paper Award "
+    time: 10/2025 
+    company: "IROS 2025 Workshop - Building Safe Robots: A Holistic Integrated View on Safety from Modelling, Control & Implementation"
   - role: "Best Project-Idea Award "
     time: 07/2025 
     company: "Geriantronic Summer School 2025 - Safe Physical Human-Robot Interaction for Frail Users"
