@@ -137,7 +137,7 @@ oss:
 certifications:
   title: Activities
   list:
-   - name: "IROS 2025 (IEEE/RSJ International Conference on Intelligent Robots and Systems)" 
+  - name: "IROS 2025 (IEEE/RSJ International Conference on Intelligent Robots and Systems)" 
     start: 19/10/25
     end: 25/10/25
     organization: "Attender - Hangzhou, China"
