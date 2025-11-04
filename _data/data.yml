@@ -91,9 +91,9 @@ publications:
 experiences:
   title: AWARDS & SCHOLARSHIPS & Fundings
   info:
-  - role: "Best Student Paper Award "
+  - role: "Best Student Paper Award"
     time: 10/2025 
-    company: "IROS 2025 Workshop - Building Safe Robots: A Holistic Integrated View on Safety from Modelling, Control & Implementation"
+    company: "IROS 2025 Workshop (Building Safe Robots) - GeoCopilot: What Does Geometry Mean for Robots?"
   - role: "Best Project-Idea Award "
     time: 07/2025 
     company: "Geriantronic Summer School 2025 - Safe Physical Human-Robot Interaction for Frail Users"
@@ -137,6 +137,14 @@ oss:
 certifications:
   title: Activities
   list:
+   - name: "IROS 2025 (IEEE/RSJ International Conference on Intelligent Robots and Systems)" 
+    start: 19/10/25
+    end: 25/10/25
+    organization: "Attender - Hangzhou, China"
+    credentialurl: iros25.org/
+    credentialname: "@IROS2025"
+    details: "• Workshop (Building Safe Robots A Holistic Integrated View on Safety from Modelling, Control & Implementation): GeoCopilot: What does Geometry Mean for Robots?"
+  
   - name: "Geriatronics Summer School 2025" 
     start: 07/07/25
     end: 10/07/25
@@ -144,6 +152,7 @@ certifications:
     credentialurl: www.mirmi.tum.de/en/geriatronics/news/article/summer-school/
     credentialname: "@GeriantronicsSummerSchool2025"
     details: "• Team: Safe Physical Human-Robot Interaction for Frail Users"
+    
   - name: "Automcatica 2025" 
     start: 24/06/25
     end: 27/06/25
