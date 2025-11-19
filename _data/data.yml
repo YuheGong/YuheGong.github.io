@@ -63,7 +63,7 @@ publications:
     authors: "Bingkun Huang, Yuhe Gong, Zewen Yang, Tianyu Ren, Luis Figueredo"
     conference: "Under Review." 
     
-  - title: "ZLATTE: A Geometry-Aware, Learning-Free Framework for Language-Driven Trajectory Reshaping in Human-Robot Interaction"
+  - title: "GELATO: Multi-Instruction Trajectory Reshaping via Geometry-Aware Multiagent-based Orchestration"
     link: "https://arxiv.org/abs/2509.06031"
     authors: "Junhui Huang, Yuhe Gong, Changsheng Li, Xingguang Duan, Luis Figueredo"
     conference: "Under Review." 
