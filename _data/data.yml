@@ -76,7 +76,7 @@ publications:
   - title: "GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters"
     link: "https://arxiv.org/abs/2503.03992"
     authors: "Pablo C. Lopez-Custodio, Yuhe Gong, Luis Figueredo"
-    conference: "ICRA 2026 (Submitted)." 
+    conference: "Under Review." 
     
   - title: "GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments" 
     link: "https://arxiv.org/abs/2505.19688"
