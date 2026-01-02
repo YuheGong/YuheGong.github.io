@@ -142,6 +142,15 @@ oss:
 certifications:
   title: Activities
   list:
+  
+  - name: "7th UK manipulation Workshop" 
+    start: 06/01/26
+    end: 07/01/26
+    organization: "Attender & Student Volunteer - Edinburg, UK"
+    credentialurl: robot-manipulation.uk/
+    credentialname: "@UKManipulationWorkhop"
+    details: "• Poster: GeoCopilot: What does Geometry Mean for Robots?"
+    
   - name: "IROS 2025 (IEEE/RSJ International Conference on Intelligent Robots and Systems)" 
     start: 19/10/25
     end: 25/10/25
