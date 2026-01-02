@@ -120,6 +120,12 @@ experiences:
 oss:
   title: Roles
   list:
+  - name: 7th UK Manipulation Workshop
+    start: 06/01/26
+    end: 07/01/26
+    organization: Student Volunteer
+    credentialurl: robot-manipulation.uk/
+    credentialname: "@UKManipulationWorkhop" 
   - name: ICRA2025
     start: 19/05/25
     end: 23/05/25 
