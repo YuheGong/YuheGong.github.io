@@ -120,6 +120,18 @@ experiences:
 oss:
   title: Roles
   list:
+  - name: IEEE RAS SAC Co-Chair for Conference Event
+    start: 06/01/26
+    end: 07/01/26
+    organization: "IEEE Robotics and Automation Society - Student Activities Committee"
+    credentialurl: www.ieee-ras.org/about-ras/ras-calendar/event/2089-call-for-ras-student-activities-committee-sac-chair-and-co-chairs
+    credentialname: "@IEEE-RAS-SAC" 
+  - name: IEEE RAS Technical Committee of Algorithms for Planning and Control of Robot Motion (APCRM) 
+    start: 01/04/25
+    end: Now 
+    organization: Student Representative
+    credentialurl: www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
+    credentialname: "@APCRM" 
   - name: 7th UK Manipulation Workshop
     start: 06/01/26
     end: 07/01/26
@@ -131,15 +143,9 @@ oss:
     end: 23/05/25 
     organization: Social Media Ambassador
     credentialurl: 2025.ieee-icra.org/
-    credentialname: "@ICRA2025" 
-  - name: IEEE RAS Technical Committee of Algorithms for Planning and Control of Robot Motion (APCRM) 
-    start: 01/04/25
-    end: Now 
-    organization: Student Representative
-    credentialurl: www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
-    credentialname: "@APCRM" 
+    credentialname: "@ICRA2025"
   - name: Talking Robotics 
-    start: 01/02/25
+    start: 01/02/25 - 31/01/26
     end: Now 
     organization: Organizer  
     credentialurl: talking-robotics.github.io/overview/ 
