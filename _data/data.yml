@@ -58,11 +58,7 @@ career-profile:
 publications:
   title: Publications
   papers:
-  - title: "Contact-Safe Reinforcement Learning with ProMP Reparameterization and Energy Awareness"
-    link: "https://arxiv.org/abs/2511.13459"
-    authors: "Bingkun Huang, Yuhe Gong, Zewen Yang, Tianyu Ren, Luis Figueredo"
-    conference: "Under Review." 
-    
+  
   - title: "GELATO: Multi-Instruction Trajectory Reshaping via Geometry-Aware Multiagent-based Orchestration"
     link: "https://arxiv.org/abs/2509.06031"
     authors: "Junhui Huang, Yuhe Gong, Changsheng Li, Xingguang Duan, Luis Figueredo"
@@ -73,10 +69,15 @@ publications:
     authors: "Clara Günter, Yuhe Gong, Riddhiman Laha, Simon Appoltshauser, Luis Figueredo, Joachim Hermsdörfer, David W. Franklin"
     conference: "Under Review." 
     
+  - title: "Contact-Safe Reinforcement Learning with ProMP Reparameterization and Energy Awareness"
+    link: "https://arxiv.org/abs/2511.13459"
+    authors: "Bingkun Huang, Yuhe Gong, Zewen Yang, Tianyu Ren, Luis Figueredo"
+    conference: "ICRA 2026 Accepted." 
+    
   - title: "GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters"
     link: "https://arxiv.org/abs/2503.03992"
     authors: "Pablo C. Lopez-Custodio, Yuhe Gong, Luis Figueredo"
-    conference: "Under Review." 
+    conference: "ICRA 2026 Accepted." 
     
   - title: "GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments" 
     link: "https://arxiv.org/abs/2505.19688"
