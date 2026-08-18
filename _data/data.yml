@@ -97,13 +97,20 @@ publications:
 experiences:
   title: AWARDS & SCHOLARSHIPS & Fundings
   info:
+  
+  - role: "Best Paper Award"
+    time: 06/2026 
+    company: "ICRA 2026 Workshop on Manipulation Robustness (Towards Human-Level Robustness under Real-World Challenges) - HANDLE: Robust non-prehensile liquid manipulation in cluttered, human-centric environments with physical HRI?"  
+  - role: "What Bimanuals Can Do, XtalPi Lab Experiments 1st Winner"
+    time: 06/2026 
+    company: "ICRA 2026 Competition"
   - role: "Best Student Paper Award"
     time: 10/2025 
     company: "IROS 2025 Workshop (Building Safe Robots A Holistic Integrated View on Safety from Modelling, Control & Implementation) - GeoCopilot: What Does Geometry Mean for Robots?"
   - role: "Best Project-Idea Award "
     time: 07/2025 
     company: "Geriantronic Summer School 2025 - Safe Physical Human-Robot Interaction for Frail Users"
-  - role: "PhyRC: Physical Robotic Caregiving Challenge Winner"
+  - role: "PhyRC: Physical Robotic Caregiving Challenge 1st Winner"
     time: 05/2025 
     company: "ICRA 2025 Competition"
   - role: ICRA 2025 RAS Travel Support
