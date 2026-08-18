@@ -131,13 +131,13 @@ oss:
   - name: Co-Chair for Conference Event
     start: 30/01/2026
     end: Now
-    organization: "IEEE Robotics and Automation Society - Student Activities Committee (IEEE RAS - SAC)"
+    organization: "IEEE Robotics and Automation Society -<br>Student Activities Committee (IEEE RAS - SAC)"
     credentialurl: www.ieee-ras.org/about-ras/ras-calendar/event/2089-call-for-ras-student-activities-committee-sac-chair-and-co-chairs
     credentialname: "@IEEE-RAS-SAC" 
   - name: Student Representative
     start: 01/02/2025
     end: 31/01/2026
-    organization: IEEE RAS Technical Committee of Algorithms for Planning and Control of Robot Motion (APCRM) 
+    organization: "IEEE RAS Technical Committee of Algorithms -<br>for Planning and Control of Robot Motion (APCRM)" 
     credentialurl: www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion
     credentialname: "@APCRM" 
   - name: 7th UK Manipulation Workshop
