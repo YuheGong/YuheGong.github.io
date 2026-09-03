@@ -58,6 +58,11 @@ career-profile:
 publications:
   title: Publications
   papers:
+
+  - title: "HANDLE: Safe Non-prehensile Liquid Manipulation in Cluttered, Human-centric Environments with Physical Human-Robot Interaction"
+    link: ""
+    authors: "Yuhe Gong, Junhui Huang, Riddhiman Laha, Zewen Yang, Hao Xing, Ayse Kucukyilmaz, Seth Hutchinson, Luis Figueredo"
+    conference: "Under Review." 
   
   - title: "GELATO: Multi-Instruction Trajectory Reshaping via Geometry-Aware Multiagent-based Orchestration"
     link: "https://arxiv.org/abs/2509.06031"
