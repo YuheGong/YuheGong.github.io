@@ -66,7 +66,7 @@ publications:
   
   - title: "GELATO: Multi-Instruction Trajectory Reshaping via Geometry-Aware Multiagent-based Orchestration"
     link: "https://arxiv.org/abs/2509.06031"
-    authors: "Junhui Huang, Yuhe Gong, Changsheng Li, Xingguang Duan, Luis Figueredo"
+    authors: "Junhui Huang<sup>1</sup>, Yuhe Gong<sup>1</sup>, Changsheng Li, Xingguang Duan, Luis Figueredo"
     conference: "Under Review." 
 
   - title: "Biomimetic cues enable predictive mechanisms in simulated and physical robot-human object handovers"
