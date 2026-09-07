@@ -157,10 +157,10 @@ oss:
     organization: Student Volunteer
     credentialurl: robot-manipulation.uk/
     credentialname: "@UKManipulationWorkhop" 
-  - name: ICRA2025
+  - name: Social Media Ambassador
     start: 19/05/2025
     end: 23/05/2025 
-    organization: Social Media Ambassador
+    organization: ICRA 2025 (IEEE International Conference on Robotics and Automation)
     credentialurl: 2025.ieee-icra.org/
     credentialname: "@ICRA2025"
   - name: Talking Robotics 
