@@ -9,7 +9,10 @@
     {{ awards.title }}
   </h2>
 
-  {% for item in awards.info %}
+  {% for group in awards.groups %}
+  <h3 class="group-title" style="margin-top: 1.5rem; margin-bottom: 0.5rem;">{{ group.group_title }}</h3>
+
+  {% for item in group.info %}
   <div class="item">
     <div class="meta">
       <div class="upper-row">
@@ -28,6 +31,8 @@
     </div><!--//details-->
     {% endif %}
   </div><!--//item-->
+  {% endfor %}
+
   {% endfor %}
 </section>
 {% endif %}
