@@ -138,9 +138,13 @@ awards:
 
     - group_title: "Service & Outreach Awards"
       info:
-        - role: "Best Welcome Kit Award ($200)"
+        - role: "Social Media Ambassador Award"
           time: 05/2025
-          company: "IEEE RAS Technical Committee on Algorithms for Planning and Control of Robot Motion (APCRM) - ICRA 2025, as Student Representative"
+          company: "IEEE RAS Student Activities Committee (SAC) & Media Services Board — ICRA 2025"
+        - role: "Best Welcome Kit Award"
+          time: 05/2025
+          company: "IEEE RAS Technical Activities Board (TAB), ICRA 2025 — for the APCRM Technical Committee Welcome Kit, as Student Representative"
+
 experiences:
   title: SCHOLARSHIPS & Fundings
   info:
@@ -161,10 +165,16 @@ oss:
   list:
   - name: Co-Chair for Conference Event
     start: 30/01/2026
-    end: Now
+    end: 29/01/2028
     organization: "IEEE Robotics and Automation Society -<br>Student Activities Committee (IEEE RAS - SAC)"
     credentialurl: www.ieee-ras.org/about-ras/ras-calendar/event/2089-call-for-ras-student-activities-committee-sac-chair-and-co-chairs
     credentialname: "@IEEE-RAS-SAC" 
+  - name: Student Representative
+    start: 01/02/2026
+    end: 31/01/2027
+    organization: "IEEE RAS Technical Committee of Robot Control" 
+    credentialurl: ieee-ras-robot-control.github.io/
+    credentialname: "@tc-on-robotcontrol" 
   - name: Student Representative
     start: 01/02/2025
     end: 31/01/2026
@@ -177,12 +187,6 @@ oss:
     organization: Student Volunteer
     credentialurl: robot-manipulation.uk/
     credentialname: "@UKManipulationWorkhop" 
-  - name: Social Media Ambassador
-    start: 19/05/2025
-    end: 23/05/2025 
-    organization: ICRA 2025 (IEEE International Conference on Robotics and Automation)
-    credentialurl: 2025.ieee-icra.org/
-    credentialname: "@ICRA2025"
   - name: Talking Robotics 
     start: 01/02/2025 
     end: 31/01/2026
