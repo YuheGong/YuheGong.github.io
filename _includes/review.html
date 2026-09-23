@@ -1,0 +1,35 @@
+{% assign review = site.data.data.review %}
+{% if review %}
+<section class="section review-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ review.title }}
+  </h2>
+
+  {% if review.journals %}
+  <div class="item">
+    <h3 class="job-title">Journals</h3>
+    <ul>
+      {% for journal in review.journals %}
+      <li>{{ journal }}</li>
+      {% endfor %}
+    </ul>
+  </div><!--//item-->
+  {% endif %}
+
+  {% if review.conferences %}
+  <div class="item">
+    <h3 class="job-title">Conferences</h3>
+    <ul>
+      {% for conference in review.conferences %}
+      <li>{{ conference }}</li>
+      {% endfor %}
+    </ul>
+  </div><!--//item-->
+  {% endif %}
+
+</section><!--//section-->
+{% endif %}
