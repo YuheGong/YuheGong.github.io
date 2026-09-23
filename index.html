@@ -1,30 +1,1080 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuhe Gong | Robotic Researcher | University of Nottingham</title>
+  <meta name="description" content="Yuhe Gong - Ph.D. Researcher in Robot Manipulation & Physical Human-Robot Interaction at University of Nottingham.">
+  <meta name="author" content="Yuhe Gong">
 
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+              800: '#0c4a6e',
+              900: '#082f49'
+            },
+            accent: {
+              indigo: '#6366f1',
+              cyan: '#06b6d4',
+              emerald: '#10b981',
+              amber: '#f59e0b'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            mono: ['JetBrains Mono', 'Fira Code', 'Courier New', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
 
-{% include career-profile.html %}
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+  <style>
+    /* Custom scrollbar and subtle glowing elements */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(148, 163, 184, 0.4);
+      border-radius: 9999px;
+    }
+    .dark ::-webkit-scrollbar-thumb {
+      background: rgba(71, 85, 105, 0.5);
+    }
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .dark .glassmorphism {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .hero-glow {
+      background: radial-gradient(circle at 50% 20%, rgba(14, 165, 233, 0.12) 0%, transparent 60%);
+    }
+    .dark .hero-glow {
+      background: radial-gradient(circle at 50% 20%, rgba(56, 189, 248, 0.08) 0%, transparent 70%);
+    }
+  </style>
+</head>
 
-{% include publications.html %}
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 min-h-screen relative font-sans antialiased selection:bg-brand-500 selection:text-white">
 
-{% include oss-contributions.html %}
+  <!-- Ambient Glow Background -->
+  <div class="hero-glow absolute inset-0 pointer-events-none -z-10 h-[600px] w-full"></div>
 
-{% include review.html %}
+  <!-- Navigation Bar -->
+  <header class="sticky top-0 z-50 glassmorphism border-b border-slate-200/80 dark:border-slate-800/80 transition-colors">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-brand-600 to-cyan-400 flex items-center justify-center text-white font-bold text-sm shadow-md group-hover:scale-105 transition-transform">
+          YG
+        </div>
+        <div>
+          <span class="font-bold tracking-tight text-slate-900 dark:text-white text-base group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">Yuhe Gong</span>
+          <span class="text-xs block text-slate-500 dark:text-slate-400 font-mono">龚宇赫 · Robotics</span>
+        </div>
+      </a>
 
-{% include awards.html %}
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600 dark:text-slate-300">
+        <a href="#about" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">About</a>
+        <a href="#publications" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Publications</a>
+        <a href="#activities" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Activities</a>
+        <a href="#awards" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Awards</a>
+        <a href="#roles" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Service</a>
+        <a href="#pre-study" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Research History</a>
+      </nav>
 
-{% include experiences.html %}
+      <!-- Utilities (Theme Switch & Mobile Menu Toggle) -->
+      <div class="flex items-center gap-3">
+        <!-- Dark Mode Toggle Button -->
+        <button id="themeToggle" type="button" aria-label="Toggle Dark Mode" class="p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+          <i class="fa-solid fa-moon dark:hidden text-slate-700"></i>
+          <i class="fa-solid fa-sun hidden dark:inline-block text-amber-400"></i>
+        </button>
 
-{% include certifications.html %}
+        <!-- Mobile Menu Hamburger -->
+        <button id="mobileMenuBtn" type="button" aria-label="Open Mobile Menu" class="md:hidden p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+          <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </div>
+    </div>
 
-{% include projects.html %}
+    <!-- Mobile Dropdown Navigation -->
+    <div id="mobileMenu" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 px-6 py-4 space-y-3 text-sm">
+      <a href="#about" class="block py-1 hover:text-brand-600 dark:hover:text-brand-400">About</a>
+      <a href="#publications" class="block py-1 hover:text-brand-600 dark:hover:text-brand-400">Publications</a>
+      <a href="#activities" class="block py-1 hover:text-brand-600 dark:hover:text-brand-400">Activities</a>
+      <a href="#awards" class="block py-1 hover:text-brand-600 dark:hover:text-brand-400">Awards & Funding</a>
+      <a href="#roles" class="block py-1 hover:text-brand-600 dark:hover:text-brand-400">Community & Roles</a>
+      <a href="#pre-study" class="block py-1 hover:text-brand-600 dark:hover:text-brand-400">Research History</a>
+      <a href="#education" class="block py-1 hover:text-brand-600 dark:hover:text-brand-400">Education & Skills</a>
+    </div>
+  </header>
 
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-16">
 
+    <!-- Hero / Profile Card Section -->
+    <section id="about" class="bg-white dark:bg-slate-900/80 rounded-3xl p-6 sm:p-10 border border-slate-200/80 dark:border-slate-800 shadow-sm relative overflow-hidden">
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        
+        <!-- Profile Picture Container -->
+        <div class="relative shrink-0">
+          <div class="w-36 h-36 sm:w-44 sm:h-44 rounded-2xl overflow-hidden ring-4 ring-white dark:ring-slate-800 shadow-xl bg-slate-100 dark:bg-slate-800">
+            <img 
+              src="assets/images/profile.png" 
+              alt="Yuhe Gong" 
+              class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500"
+              onerror="this.onerror=null; this.src='https://placehold.co/400x400/0284c7/ffffff?text=Yuhe+Gong';"
+            />
+          </div>
+          <!-- Online / Active Badge -->
+          <div class="absolute -bottom-2 -right-2 bg-emerald-500 text-white text-[11px] font-semibold px-2.5 py-0.5 rounded-full border-2 border-white dark:border-slate-900 flex items-center gap-1 shadow-sm">
+            <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+            UK / GMT
+          </div>
+        </div>
 
-{% include recommendations.html %}
+        <!-- Name, Designation, and Links -->
+        <div class="flex-1 text-center md:text-left space-y-4">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-brand-50 text-brand-700 dark:bg-brand-950/70 dark:text-brand-300 border border-brand-200/60 dark:border-brand-800/60 mb-2">
+              <i class="fa-solid fa-robot text-brand-500"></i> Robotic Researcher
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+              Yuhe Gong <span class="text-xl sm:text-2xl font-normal text-slate-500 dark:text-slate-400 font-sans ml-1">龚宇赫</span>
+            </h1>
+            <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 font-medium mt-1">
+              Ph.D. Student in Robot Manipulation & Physical Human-Robot Interaction (pHRI)
+            </p>
+            <p class="text-sm text-slate-500 dark:text-slate-400 flex items-center justify-center md:justify-start gap-1.5 mt-1">
+              <i class="fa-solid fa-building-columns text-slate-400"></i>
+              School of Computer Science, University of Nottingham, UK
+            </p>
+          </div>
 
-{% include skills.html %}
+          <!-- Social Contact Links Pills -->
+          <div class="flex flex-wrap items-center justify-center md:justify-start gap-2.5 pt-1">
+            <a href="mailto:yuhe.gong@nottingham.ac.uk" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-slate-100 hover:bg-brand-50 hover:text-brand-600 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-medium transition-all shadow-sm">
+              <i class="fa-regular fa-envelope text-brand-600 dark:text-brand-400"></i>
+              yuhe.gong@nottingham.ac.uk
+            </a>
+            <a href="https://github.com/YuheGong" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-medium transition-all shadow-sm">
+              <i class="fa-brands fa-github text-slate-900 dark:text-white"></i>
+              YuheGong
+            </a>
+            <a href="https://www.linkedin.com/in/yuhe-gong-735b471b9" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-slate-100 hover:bg-blue-50 hover:text-blue-600 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-medium transition-all shadow-sm">
+              <i class="fa-brands fa-linkedin text-blue-600"></i>
+              LinkedIn
+            </a>
+            <a href="https://twitter.com/yuhe_gong" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-slate-100 hover:bg-sky-50 hover:text-sky-600 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-medium transition-all shadow-sm">
+              <i class="fa-brands fa-x-twitter"></i>
+              @yuhe_gong
+            </a>
+          </div>
+
+          <!-- Research Topic & Bio Box -->
+          <div class="pt-3 border-t border-slate-100 dark:border-slate-800 text-sm text-slate-600 dark:text-slate-300 leading-relaxed text-left">
+            <h3 class="font-semibold text-slate-900 dark:text-white text-xs uppercase tracking-wider text-brand-600 dark:text-brand-400 mb-1.5">
+              <i class="fa-solid fa-compass-drafting mr-1"></i> Research Overview
+            </h3>
+            <p>
+              I am a Ph.D. student at the <strong>University of Nottingham</strong> starting from October 2023, under the supervision of 
+              <span class="text-slate-900 dark:text-slate-100 font-medium">Dr. Luis Figueredo</span> (1st) and 
+              <span class="text-slate-900 dark:text-slate-100 font-medium">Dr. Ayse Kucukyilmaz</span> (2nd).
+            </p>
+            <p class="mt-2">
+              My PhD topic is <strong>robotic control, manipulation, and physical human-robot interaction (pHRI)</strong>. 
+              I am interested in <em>geometric methods for intelligent robots</em>, focusing on developing mathematical frameworks that enable robots to operate in a natural, efficient, and comfortable manner.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+            <i class="fa-solid fa-book-bookmark text-brand-600 dark:text-brand-400"></i>
+            Publications
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
+            Conference proceedings, journal articles, and preprints.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap gap-1.5 text-xs bg-slate-200/70 dark:bg-slate-800/80 p-1 rounded-xl w-fit" id="pubFilters">
+          <button data-filter="all" class="pub-filter-btn px-3 py-1.5 rounded-lg font-medium transition-all bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm">All (7)</button>
+          <button data-filter="published" class="pub-filter-btn px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white">Published</button>
+          <button data-filter="accepted" class="pub-filter-btn px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white">Accepted</button>
+          <button data-filter="review" class="pub-filter-btn px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white">Under Review</button>
+        </div>
+      </div>
+
+      <!-- Publication Cards List -->
+      <div class="space-y-4" id="publicationsList">
+
+        <!-- Paper 1 -->
+        <article class="pub-item bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:border-brand-500/50 dark:hover:border-brand-500/50 transition-all space-y-3" data-category="review">
+          <div class="flex flex-wrap items-center gap-2 justify-between">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-200 dark:border-amber-800">
+              <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> Under Review
+            </span>
+            <span class="text-xs text-slate-400 font-mono">2026</span>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">
+            GELATO: Multi-Instruction Trajectory Reshaping via Geometry-Aware Multiagent-based Orchestration
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium">
+            Junhui Huang, <span class="text-brand-600 dark:text-brand-400 font-semibold underline decoration-brand-400/50 underline-offset-2">Yuhe Gong</span>, Changsheng Li, Xingguang Duan, Luis Figueredo
+          </p>
+          <div class="pt-2 flex flex-wrap items-center gap-2 text-xs">
+            <button onclick="copyBibtex('bib-gelato')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-mono text-slate-700 dark:text-slate-200 transition-colors">
+              <i class="fa-solid fa-quote-right mr-1 text-slate-400"></i>BibTeX
+            </button>
+          </div>
+          <pre id="bib-gelato" class="hidden text-[11px] font-mono p-3 rounded-lg bg-slate-100 dark:bg-slate-950 overflow-x-auto text-slate-700 dark:text-slate-300">@article{huang2026gelato,
+  title={GELATO: Multi-Instruction Trajectory Reshaping via Geometry-Aware Multiagent-based Orchestration},
+  author={Huang, Junhui and Gong, Yuhe and Li, Changsheng and Duan, Xingguang and Figueredo, Luis},
+  journal={Under Review},
+  year={2026}
+}</pre>
+        </article>
+
+        <!-- Paper 2 -->
+        <article class="pub-item bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:border-brand-500/50 dark:hover:border-brand-500/50 transition-all space-y-3" data-category="review">
+          <div class="flex flex-wrap items-center gap-2 justify-between">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-200 dark:border-amber-800">
+              <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> Under Review
+            </span>
+            <span class="text-xs text-slate-400 font-mono">2026</span>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">
+            Biomimetic cues enable predictive mechanisms in simulated and physical robot-human object handovers
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium">
+            Clara Günter, <span class="text-brand-600 dark:text-brand-400 font-semibold underline decoration-brand-400/50 underline-offset-2">Yuhe Gong</span>, Riddhiman Laha, Simon Appoltshauser, Luis Figueredo, Joachim Hermsdörfer, David W. Franklin
+          </p>
+          <div class="pt-2 flex flex-wrap items-center gap-2 text-xs">
+            <button onclick="copyBibtex('bib-handover')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-mono text-slate-700 dark:text-slate-200 transition-colors">
+              <i class="fa-solid fa-quote-right mr-1 text-slate-400"></i>BibTeX
+            </button>
+          </div>
+          <pre id="bib-handover" class="hidden text-[11px] font-mono p-3 rounded-lg bg-slate-100 dark:bg-slate-950 overflow-x-auto text-slate-700 dark:text-slate-300">@article{gunter2026biomimetic,
+  title={Biomimetic cues enable predictive mechanisms in simulated and physical robot-human object handovers},
+  author={G{\"u}nter, Clara and Gong, Yuhe and Laha, Riddhiman and Appoltshauser, Simon and Figueredo, Luis and Hermsd{\"o}rfer, Joachim and Franklin, David W},
+  journal={Under Review},
+  year={2026}
+}</pre>
+        </article>
+
+        <!-- Paper 3 -->
+        <article class="pub-item bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:border-brand-500/50 dark:hover:border-brand-500/50 transition-all space-y-3" data-category="accepted">
+          <div class="flex flex-wrap items-center gap-2 justify-between">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
+              <i class="fa-solid fa-circle-check text-emerald-500"></i> ICRA 2026 Accepted
+            </span>
+            <span class="text-xs text-slate-400 font-mono">2026</span>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">
+            Contact-Safe Reinforcement Learning with ProMP Reparameterization and Energy Awareness
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium">
+            Bingkun Huang, <span class="text-brand-600 dark:text-brand-400 font-semibold underline decoration-brand-400/50 underline-offset-2">Yuhe Gong</span>, Zewen Yang, Tianyu Ren, Luis Figueredo
+          </p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 italic">IEEE International Conference on Robotics and Automation (ICRA 2026)</p>
+          <div class="pt-2 flex flex-wrap items-center gap-2 text-xs">
+            <button onclick="copyBibtex('bib-promp')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-mono text-slate-700 dark:text-slate-200 transition-colors">
+              <i class="fa-solid fa-quote-right mr-1 text-slate-400"></i>BibTeX
+            </button>
+          </div>
+          <pre id="bib-promp" class="hidden text-[11px] font-mono p-3 rounded-lg bg-slate-100 dark:bg-slate-950 overflow-x-auto text-slate-700 dark:text-slate-300">@inproceedings{huang2026contact,
+  title={Contact-Safe Reinforcement Learning with ProMP Reparameterization and Energy Awareness},
+  author={Huang, Bingkun and Gong, Yuhe and Yang, Zewen and Ren, Tianyu and Figueredo, Luis},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2026}
+}</pre>
+        </article>
+
+        <!-- Paper 4 -->
+        <article class="pub-item bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:border-brand-500/50 dark:hover:border-brand-500/50 transition-all space-y-3" data-category="accepted">
+          <div class="flex flex-wrap items-center gap-2 justify-between">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
+              <i class="fa-solid fa-circle-check text-emerald-500"></i> ICRA 2026 Accepted
+            </span>
+            <span class="text-xs text-slate-400 font-mono">2026</span>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">
+            GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium">
+            Pablo C. Lopez-Custodio, <span class="text-brand-600 dark:text-brand-400 font-semibold underline decoration-brand-400/50 underline-offset-2">Yuhe Gong</span>, Luis Figueredo
+          </p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 italic">IEEE International Conference on Robotics and Automation (ICRA 2026)</p>
+          <div class="pt-2 flex flex-wrap items-center gap-2 text-xs">
+            <button onclick="copyBibtex('bib-geofik')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-mono text-slate-700 dark:text-slate-200 transition-colors">
+              <i class="fa-solid fa-quote-right mr-1 text-slate-400"></i>BibTeX
+            </button>
+          </div>
+          <pre id="bib-geofik" class="hidden text-[11px] font-mono p-3 rounded-lg bg-slate-100 dark:bg-slate-950 overflow-x-auto text-slate-700 dark:text-slate-300">@inproceedings{lopez2026geofik,
+  title={GeoFIK: A Fast and Reliable Geometric Solver for the IK of the Franka Arm based on Screw Theory Enabling Multiple Redundancy Parameters},
+  author={Lopez-Custodio, Pablo C. and Gong, Yuhe and Figueredo, Luis},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2026}
+}</pre>
+        </article>
+
+        <!-- Paper 5 -->
+        <article class="pub-item bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:border-brand-500/50 dark:hover:border-brand-500/50 transition-all space-y-3" data-category="published">
+          <div class="flex flex-wrap items-center gap-2 justify-between">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 dark:bg-brand-950/70 dark:text-brand-300 border border-brand-200 dark:border-brand-800">
+              <i class="fa-solid fa-certificate text-brand-500"></i> IEEE RA-L (Nov 2025)
+            </span>
+            <span class="text-xs text-slate-400 font-mono">Vol. 10, No. 11</span>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">
+            GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium">
+            <span class="text-brand-600 dark:text-brand-400 font-semibold underline decoration-brand-400/50 underline-offset-2">Yuhe Gong</span>, Riddhiman Laha, Luis Figueredo
+          </p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 font-mono">
+            IEEE Robotics and Automation Letters, vol. 10, no. 11, pp. 11546-11553, Nov. 2025
+          </p>
+          <div class="pt-2 flex flex-wrap items-center gap-2 text-xs">
+            <a href="https://doi.org/10.1109/LRA.2025.3609237" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-lg bg-brand-50 hover:bg-brand-100 text-brand-700 dark:bg-brand-950 dark:hover:bg-brand-900 dark:text-brand-300 font-medium transition-colors">
+              <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>DOI: 10.1109/LRA.2025.3609237
+            </a>
+            <button onclick="copyBibtex('bib-geopf')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-mono text-slate-700 dark:text-slate-200 transition-colors">
+              <i class="fa-solid fa-quote-right mr-1 text-slate-400"></i>BibTeX
+            </button>
+          </div>
+          <pre id="bib-geopf" class="hidden text-[11px] font-mono p-3 rounded-lg bg-slate-100 dark:bg-slate-950 overflow-x-auto text-slate-700 dark:text-slate-300">@article{gong2025geopf,
+  title={GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments},
+  author={Gong, Yuhe and Laha, Riddhiman and Figueredo, Luis},
+  journal={IEEE Robotics and Automation Letters},
+  volume={10},
+  number={11},
+  pages={11546--11553},
+  year={2025},
+  doi={10.1109/LRA.2025.3609237}
+}</pre>
+        </article>
+
+        <!-- Paper 6 -->
+        <article class="pub-item bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:border-brand-500/50 dark:hover:border-brand-500/50 transition-all space-y-3" data-category="published">
+          <div class="flex flex-wrap items-center gap-2 justify-between">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 dark:bg-brand-950/70 dark:text-brand-300 border border-brand-200 dark:border-brand-800">
+              <i class="fa-solid fa-robot text-brand-500"></i> IEEE ICRA 2025
+            </span>
+            <span class="text-xs text-slate-400 font-mono">Atlanta, USA</span>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">
+            Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium">
+            <span class="text-brand-600 dark:text-brand-400 font-semibold underline decoration-brand-400/50 underline-offset-2">Yuhe Gong</span>, Hao Xing, Guo Yu, Luis Figueredo
+          </p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 font-mono">
+            2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, pp. 4572-4578
+          </p>
+          <div class="pt-2 flex flex-wrap items-center gap-2 text-xs">
+            <a href="https://doi.org/10.1109/ICRA55743.2025.11127841" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-lg bg-brand-50 hover:bg-brand-100 text-brand-700 dark:bg-brand-950 dark:hover:bg-brand-900 dark:text-brand-300 font-medium transition-colors">
+              <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>DOI: 10.1109/ICRA55743.2025.11127841
+            </a>
+            <button onclick="copyBibtex('bib-icra25')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-mono text-slate-700 dark:text-slate-200 transition-colors">
+              <i class="fa-solid fa-quote-right mr-1 text-slate-400"></i>BibTeX
+            </button>
+          </div>
+          <pre id="bib-icra25" class="hidden text-[11px] font-mono p-3 rounded-lg bg-slate-100 dark:bg-slate-950 overflow-x-auto text-slate-700 dark:text-slate-300">@inproceedings{gong2025manipulability,
+  title={Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility},
+  author={Gong, Yuhe and Xing, Hao and Yu, Guo and Figueredo, Luis},
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={4572--4578},
+  year={2025},
+  doi={10.1109/ICRA55743.2025.11127841}
+}</pre>
+        </article>
+
+        <!-- Paper 7 -->
+        <article class="pub-item bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:border-brand-500/50 dark:hover:border-brand-500/50 transition-all space-y-3" data-category="published">
+          <div class="flex flex-wrap items-center gap-2 justify-between">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 dark:bg-brand-950/70 dark:text-brand-300 border border-brand-200 dark:border-brand-800">
+              <i class="fa-solid fa-robot text-brand-500"></i> IEEE/RSJ IROS 2024
+            </span>
+            <span class="text-xs text-slate-400 font-mono">Abu Dhabi, UAE</span>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">
+            Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium">
+            Kuanqi Cai, Riddhiman Laha, <span class="text-brand-600 dark:text-brand-400 font-semibold underline decoration-brand-400/50 underline-offset-2">Yuhe Gong</span>, Lingyun Chen, Liding Zhang, Luis Figueredo, Sami Haddadin
+          </p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 font-mono">
+            2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, UAE, pp. 9871-9878
+          </p>
+          <div class="pt-2 flex flex-wrap items-center gap-2 text-xs">
+            <a href="https://doi.org/10.1109/IROS58592.2024.10802661" target="_blank" rel="noopener" class="px-2.5 py-1 rounded-lg bg-brand-50 hover:bg-brand-100 text-brand-700 dark:bg-brand-950 dark:hover:bg-brand-900 dark:text-brand-300 font-medium transition-colors">
+              <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>DOI: 10.1109/IROS58592.2024.10802661
+            </a>
+            <button onclick="copyBibtex('bib-iros24')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-mono text-slate-700 dark:text-slate-200 transition-colors">
+              <i class="fa-solid fa-quote-right mr-1 text-slate-400"></i>BibTeX
+            </button>
+          </div>
+          <pre id="bib-iros24" class="hidden text-[11px] font-mono p-3 rounded-lg bg-slate-100 dark:bg-slate-950 overflow-x-auto text-slate-700 dark:text-slate-300">@inproceedings{cai2024demonstration,
+  title={Demonstration to Adaptation: A User-Guided Framework for Sequential and Real-Time Planning},
+  author={Cai, Kuanqi and Laha, Riddhiman and Gong, Yuhe and Chen, Lingyun and Zhang, Liding and Figueredo, Luis and Haddadin, Sami},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={9871--9878},
+  year={2024},
+  doi={10.1109/IROS58592.2024.10802661}
+}</pre>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="awards" class="space-y-6">
+      <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+          <i class="fa-solid fa-trophy text-amber-500"></i>
+          Awards, Scholarships & Funding
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
+          Academic achievements, conference recognitions, and competitive travel grants.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- Award Card 1 -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 flex items-start gap-4 hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-medal text-lg"></i>
+          </div>
+          <div class="space-y-1">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">Best Student Paper Award</h3>
+              <span class="text-xs font-mono text-slate-400 shrink-0">10/2025</span>
+            </div>
+            <p class="text-xs text-brand-600 dark:text-brand-400 font-medium">IROS 2025 Workshop</p>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+              Building Safe Robots: A Holistic Integrated View on Safety from Modelling, Control & Implementation — <em>"GeoCopilot: What Does Geometry Mean for Robots?"</em>
+            </p>
+          </div>
+        </div>
+
+        <!-- Award Card 2 -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 flex items-start gap-4 hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-lightbulb text-lg"></i>
+          </div>
+          <div class="space-y-1">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">Best Project-Idea Award</h3>
+              <span class="text-xs font-mono text-slate-400 shrink-0">07/2025</span>
+            </div>
+            <p class="text-xs text-brand-600 dark:text-brand-400 font-medium">Geriatronics Summer School 2025</p>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+              Safe Physical Human-Robot Interaction for Frail Users.
+            </p>
+          </div>
+        </div>
+
+        <!-- Award Card 3 -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 flex items-start gap-4 hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-award text-lg"></i>
+          </div>
+          <div class="space-y-1">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">PhyRC Winner</h3>
+              <span class="text-xs font-mono text-slate-400 shrink-0">05/2025</span>
+            </div>
+            <p class="text-xs text-emerald-600 dark:text-emerald-400 font-medium">ICRA 2025 Competition</p>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+              Physical Robotic Caregiving Challenge Winner at IEEE ICRA 2025, Atlanta, USA.
+            </p>
+          </div>
+        </div>
+
+        <!-- Award Card 4 -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 flex items-start gap-4 hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-plane-departure text-lg"></i>
+          </div>
+          <div class="space-y-1">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">ICRA 2025 RAS Travel Support</h3>
+              <span class="text-xs font-mono text-slate-400 shrink-0">02/2025</span>
+            </div>
+            <p class="text-xs text-blue-600 dark:text-blue-400 font-medium">IEEE Robotics and Automation Society</p>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+              Competitive travel grant awarded by IEEE RAS for attending ICRA 2025.
+            </p>
+          </div>
+        </div>
+
+        <!-- Award Card 5 -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 flex items-start gap-4 hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 rounded-xl bg-purple-50 dark:bg-purple-950/60 border border-purple-200 dark:border-purple-800 text-purple-600 dark:text-purple-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-graduation-cap text-lg"></i>
+          </div>
+          <div class="space-y-1">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">International Ph.D. Studentship</h3>
+              <span class="text-xs font-mono text-slate-400 shrink-0">10/2023</span>
+            </div>
+            <p class="text-xs text-purple-600 dark:text-purple-400 font-medium">University of Nottingham</p>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+              Fully funded doctoral research fellowship at School of Computer Science.
+            </p>
+          </div>
+        </div>
+
+        <!-- Award Card 6 -->
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 flex items-start gap-4 hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-star text-lg"></i>
+          </div>
+          <div class="space-y-1">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">Best Paper Award</h3>
+              <span class="text-xs font-mono text-slate-400 shrink-0">07/2023</span>
+            </div>
+            <p class="text-xs text-brand-600 dark:text-brand-400 font-medium">Geriatronics Summit 2023</p>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+              <em>EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms</em>.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="activities" class="space-y-6">
+      <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+          <i class="fa-solid fa-calendar-check text-brand-600 dark:text-brand-400"></i>
+          Activities & Conferences
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
+          Workshops, presentations, posters, and international robot exhibitions.
+        </p>
+      </div>
+
+      <!-- Modern Timeline Structure -->
+      <div class="relative pl-6 sm:pl-8 border-l-2 border-slate-200 dark:border-slate-800 space-y-8">
+
+        <!-- Activity 1 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1 w-4 h-4 rounded-full bg-brand-500 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 space-y-2">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">
+                The 7th UK Robot Manipulation Workshop
+              </h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">06/01/2026 - 07/01/2026</span>
+            </div>
+            <div class="text-xs text-brand-600 dark:text-brand-400 font-medium">Attender & Student Volunteer · Edinburgh, UK (@UKManipulationWorkshop)</div>
+            <ul class="text-xs text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
+              <li><strong>Poster Session:</strong> GeoCopilot: What does Geometry Mean for Robots?</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Activity 2 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 space-y-2">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">
+                IROS 2025 (IEEE/RSJ International Conference on Intelligent Robots and Systems)
+              </h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">19/10/2025 - 25/10/2025</span>
+            </div>
+            <div class="text-xs text-brand-600 dark:text-brand-400 font-medium">Attender · Hangzhou, China (@IROS2025)</div>
+            <ul class="text-xs text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
+              <li><strong>Workshop (Building Safe Robots: A Holistic Integrated View on Safety from Modelling, Control & Implementation):</strong> GeoCopilot: What Does Geometry Mean for Robots?</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Activity 3 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 space-y-2">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">
+                Geriatronics Summer School 2025
+              </h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">07/07/2025 - 10/07/2025</span>
+            </div>
+            <div class="text-xs text-brand-600 dark:text-brand-400 font-medium">Attender · Garmisch-Partenkirchen, Germany (@GeriantronicsSummerSchool2025)</div>
+            <ul class="text-xs text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
+              <li><strong>Team Project:</strong> Safe Physical Human-Robot Interaction for Frail Users</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Activity 4 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 space-y-2">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">
+                Automatica 2025
+              </h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">24/06/2025 - 27/06/2025</span>
+            </div>
+            <div class="text-xs text-brand-600 dark:text-brand-400 font-medium">Exhibitor · Munich, Germany (@Automatica2025)</div>
+            <ul class="text-xs text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
+              <li><strong>Exhibition:</strong> Safety Serving Robot — Guarantee Human Robot Interaction While Robot Serves Around Us</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Activity 5 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 space-y-2">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">
+                ICRA 2025 (IEEE International Conference on Robotics and Automation)
+              </h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">19/05/2025 - 24/05/2025</span>
+            </div>
+            <div class="text-xs text-brand-600 dark:text-brand-400 font-medium">Presentation & Poster · Atlanta, USA (@ICRA2025)</div>
+            <ul class="text-xs text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
+              <li><strong>Paper Presentation:</strong> Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility</li>
+              <li><strong>Workshop (How do Robots Care?):</strong> Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility</li>
+              <li><strong>Workshop (Beyond the Lab: Robust Planning & Control):</strong> GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments</li>
+              <li><strong>Competition:</strong> PhyRC: Physical Robotic Caregiving Challenge</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Activity 6 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 space-y-2">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">
+                The 6th UK Robot Manipulation Workshop
+              </h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">07/01/2025 - 08/01/2025</span>
+            </div>
+            <div class="text-xs text-brand-600 dark:text-brand-400 font-medium">Presentation & Poster · London, UK (@6thUKManipulationWorkshop)</div>
+            <ul class="text-xs text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
+              <li><strong>Workshop Session:</strong> Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Activity 7 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 space-y-2">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">
+                Geriatronics Summit 2024
+              </h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">09/07/2024 - 12/07/2024</span>
+            </div>
+            <div class="text-xs text-brand-600 dark:text-brand-400 font-medium">Presentation & Poster · Garmisch-Partenkirchen, Germany (@GeriantronicsSummit2024)</div>
+            <ul class="text-xs text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
+              <li><strong>Workshop Session:</strong> Manipulability Transfer and Tracking Control: Bridging Domain Adaptation with Predictive Feasibility</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Activity 8 -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] sm:-left-[39px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 ring-4 ring-white dark:ring-slate-950 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200/80 dark:border-slate-800 space-y-2">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base">
+                Geriatronics Summit 2023
+              </h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">02/07/2023 - 03/07/2023</span>
+            </div>
+            <div class="text-xs text-brand-600 dark:text-brand-400 font-medium">Presentation & Poster · Garmisch-Partenkirchen, Germany (@GeriantronicsSummit2023)</div>
+            <ul class="text-xs text-slate-600 dark:text-slate-300 list-disc list-inside space-y-1">
+              <li><strong>Workshop Session:</strong> Episodic TD3: Introducing Movement Primitives into Actor-Critic Algorithm</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+      <!-- Left Column: Community Roles & Pre-study -->
+      <div class="lg:col-span-7 space-y-12">
+        
+        <!-- Community Roles -->
+        <section id="roles" class="space-y-4">
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-3">
+            <h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-users-gear text-indigo-500"></i>
+              Community Service & Roles
+            </h2>
+          </div>
+
+          <div class="space-y-3">
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 space-y-1">
+              <div class="flex items-center justify-between">
+                <h4 class="font-semibold text-slate-900 dark:text-white text-sm">Co-Chair for Conference Event</h4>
+                <span class="text-xs font-mono text-brand-600 dark:text-brand-400">30/01/2026 - Now</span>
+              </div>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-medium">
+                IEEE Robotics and Automation Society - Student Activities Committee (IEEE RAS - SAC)
+              </p>
+              <p class="text-xs text-slate-400">@IEEE-RAS-SAC</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 space-y-1">
+              <div class="flex items-center justify-between">
+                <h4 class="font-semibold text-slate-900 dark:text-white text-sm">Student Representative</h4>
+                <span class="text-xs font-mono text-slate-400">01/02/2025 - 31/01/2026</span>
+              </div>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-medium">
+                IEEE RAS Technical Committee of Algorithms for Planning and Control of Robot Motion (APCRM)
+              </p>
+              <p class="text-xs text-slate-400">@APCRM</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 space-y-1">
+              <div class="flex items-center justify-between">
+                <h4 class="font-semibold text-slate-900 dark:text-white text-sm">Organizer</h4>
+                <span class="text-xs font-mono text-slate-400">01/02/2025 - 31/01/2026</span>
+              </div>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-medium">Talking Robotics</p>
+              <p class="text-xs text-slate-400">@TalkingRobotics</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 space-y-1">
+              <div class="flex items-center justify-between">
+                <h4 class="font-semibold text-slate-900 dark:text-white text-sm">Social Media Ambassador</h4>
+                <span class="text-xs font-mono text-slate-400">19/05/2025 - 23/05/2025</span>
+              </div>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-medium">ICRA 2025</p>
+              <p class="text-xs text-slate-400">@ICRA2025</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 space-y-1">
+              <div class="flex items-center justify-between">
+                <h4 class="font-semibold text-slate-900 dark:text-white text-sm">Student Volunteer</h4>
+                <span class="text-xs font-mono text-slate-400">06/01/2026 - 07/01/2026</span>
+              </div>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-medium">7th UK Manipulation Workshop</p>
+              <p class="text-xs text-slate-400">@UKManipulationWorkshop</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pre-study Research History -->
+        <section id="pre-study" class="space-y-4">
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-3">
+            <h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-clock-rotate-left text-cyan-500"></i>
+              Pre-study & Lab Experience
+            </h2>
+          </div>
+
+          <div class="space-y-3">
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 space-y-1.5">
+              <div class="flex flex-wrap items-center justify-between gap-1">
+                <h4 class="font-bold text-slate-900 dark:text-white text-sm">Master Thesis (Prof. Gerhard Neumann)</h4>
+                <span class="text-xs font-mono text-slate-400">08/2021 - 03/2022</span>
+              </div>
+              <p class="text-xs text-brand-600 dark:text-brand-400">Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-medium">
+                <em>EpisodicTD3: Introducing Movement Primitives into Actor-Critic Algorithms</em>
+              </p>
+              <span class="text-[11px] font-mono text-slate-400 block">@EpisodicTD3</span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 space-y-1.5">
+              <div class="flex flex-wrap items-center justify-between gap-1">
+                <h4 class="font-bold text-slate-900 dark:text-white text-sm">Mini Job</h4>
+                <span class="text-xs font-mono text-slate-400">06/2021 - 08/2021</span>
+              </div>
+              <p class="text-xs text-brand-600 dark:text-brand-400">Intelligent System Security Research Group, Karlsruhe Institute of Technology</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-medium">
+                Reimplementation of Task-aware Variational Adversarial Active Learning
+              </p>
+              <span class="text-[11px] font-mono text-slate-400 block">@TAVAAL-RANK</span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 space-y-1.5">
+              <div class="flex flex-wrap items-center justify-between gap-1">
+                <h4 class="font-bold text-slate-900 dark:text-white text-sm">Internship (Prof. Gerhard Neumann)</h4>
+                <span class="text-xs font-mono text-slate-400">10/2020 - 07/2021</span>
+              </div>
+              <p class="text-xs text-brand-600 dark:text-brand-400">Autonomous Learning Robots (ALR) Lab, Karlsruhe Institute of Technology</p>
+              <p class="text-xs text-slate-600 dark:text-slate-300 font-medium">
+                Compare Episodic and Step-based Reinforcement Learning
+              </p>
+              <span class="text-[11px] font-mono text-slate-400 block">@CompareRL</span>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Right Column: Education, Languages & Skills -->
+      <div class="lg:col-span-5 space-y-12">
+        
+        <!-- Education Section -->
+        <section id="education" class="space-y-4">
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-3">
+            <h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-graduation-cap text-brand-600 dark:text-brand-400"></i>
+              Education
+            </h2>
+          </div>
+
+          <div class="space-y-4">
+            <!-- PhD -->
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 relative">
+              <span class="absolute top-4 right-4 text-[11px] font-semibold px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
+                Fully Funded
+              </span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm pr-20">Ph.D. in Robot Manipulation and Human Robot Interaction</h4>
+              <p class="text-xs text-brand-600 dark:text-brand-400 font-medium mt-1">University of Nottingham</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400">Nottingham, United Kingdom</p>
+            </div>
+
+            <!-- MSc -->
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800">
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">M.Sc. in Control System and Technology</h4>
+              <p class="text-xs text-brand-600 dark:text-brand-400 font-medium mt-1">Karlsruhe Institute of Technology (KIT)</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400">Karlsruhe, Germany</p>
+            </div>
+
+            <!-- BSc -->
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800">
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">B.Sc. in Electrical and Electronic Engineering</h4>
+              <p class="text-xs text-brand-600 dark:text-brand-400 font-medium mt-1">Huazhong University of Science and Technology (HUST)</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400">Wuhan, China</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section class="space-y-4">
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-3">
+            <h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-language text-cyan-500"></i>
+              Languages
+            </h2>
+          </div>
+
+          <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200/80 dark:border-slate-800 space-y-3">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-medium text-slate-800 dark:text-slate-200">Chinese / 中文</span>
+              <span class="px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-medium">Native / 母语</span>
+            </div>
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-medium text-slate-800 dark:text-slate-200">English</span>
+              <span class="px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-medium">Professional</span>
+            </div>
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-medium text-slate-800 dark:text-slate-200">German / Deutsch</span>
+              <span class="px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-medium">Fluent / Flüssig</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills & Proficiency Section -->
+        <section class="space-y-4">
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-3">
+            <h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+              <i class="fa-solid fa-code text-emerald-500"></i>
+              Skills & Proficiency
+            </h2>
+          </div>
+
+          <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200/80 dark:border-slate-800 space-y-3">
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 font-mono font-medium flex items-center gap-1.5">
+                <i class="fa-solid fa-code text-brand-500"></i> C++
+              </span>
+              <span class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 font-mono font-medium flex items-center gap-1.5">
+                <i class="fa-brands fa-python text-amber-500"></i> Python
+              </span>
+              <span class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 font-mono font-medium flex items-center gap-1.5">
+                <i class="fa-solid fa-square-root-variable text-red-500"></i> Matlab
+              </span>
+              <span class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 font-mono font-medium flex items-center gap-1.5">
+                <i class="fa-solid fa-robot text-cyan-500"></i> ROS
+              </span>
+            </div>
+            <div class="pt-2 border-t border-slate-100 dark:border-slate-800">
+              <span class="text-xs text-slate-500 dark:text-slate-400 block mb-1">Design & Graphics Software:</span>
+              <span class="text-xs text-slate-700 dark:text-slate-300 font-medium">
+                Photoshop &bull; Inkscape &bull; GIMP
+              </span>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-10 mt-16 bg-white dark:bg-slate-900 transition-colors">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
+      <div>
+        &copy; <span id="currentYear"></span> Yuhe Gong. All rights reserved.
+      </div>
+      <div class="flex items-center gap-4">
+        <span>Hosted on GitHub Pages</span>
+        <span>&bull;</span>
+        <span>University of Nottingham</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification for BibTeX Copy -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-xl text-xs font-medium">
+    <i class="fa-solid fa-check text-emerald-400 dark:text-emerald-600"></i>
+    <span id="toastMsg">BibTeX copied to clipboard!</span>
+  </div>
+
+  <!-- Interactive Logic -->
+  <script>
+    // Set dynamic current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // 1. Dark Mode / Light Mode Toggle with Persistence
+    const themeToggle = document.getElementById('themeToggle');
+    const htmlEl = document.documentElement;
+
+    // Check localStorage or system preference
+    if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      htmlEl.classList.add('dark');
+    } else {
+      htmlEl.classList.remove('dark');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      htmlEl.classList.toggle('dark');
+      if (htmlEl.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+      } else {
+        localStorage.setItem('theme', 'light');
+      }
+    });
+
+    // 2. Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    // Close mobile menu on clicking any link
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    // 3. Publications Category Filtering
+    const filterButtons = document.querySelectorAll('.pub-filter-btn');
+    const pubItems = document.querySelectorAll('.pub-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+
+        // Style toggle for active filter
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-white', 'dark:bg-slate-700', 'text-slate-900', 'dark:text-white', 'shadow-sm');
+          b.classList.add('text-slate-600', 'dark:text-slate-300');
+        });
+        btn.classList.add('bg-white', 'dark:bg-slate-700', 'text-slate-900', 'dark:text-white', 'shadow-sm');
+        btn.classList.remove('text-slate-600', 'dark:text-slate-300');
+
+        // Show/Hide items
+        pubItems.forEach(item => {
+          const cat = item.getAttribute('data-category');
+          if (filter === 'all' || cat === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // 4. BibTeX Copy Functionality (iframe-safe clipboard fallback)
+    function copyBibtex(id) {
+      const pre = document.getElementById(id);
+      if (!pre) return;
+      const isHidden = pre.classList.contains('hidden');
+      
+      // Toggle view
+      pre.classList.toggle('hidden');
+
+      // Copy text to clipboard
+      const textToCopy = pre.innerText;
+      const textArea = document.createElement('textarea');
+      textArea.value = textToCopy;
+      textArea.style.position = 'fixed';
+      textArea.style.left = '-999999px';
+      textArea.style.top = '-999999px';
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      
+      try {
+        document.execCommand('copy');
+        showToast('BibTeX copied to clipboard!');
+      } catch (err) {
+        showToast('Toggled BibTeX view');
+      }
+      document.body.removeChild(textArea);
+    }
+
+    // Toast helper
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toastMsg');
+      toastMsg.textContent = msg;
+      toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+      }, 2400);
+    }
+  </script>
+</body>
+</html>
