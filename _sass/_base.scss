@@ -211,6 +211,8 @@ p {
     top: 0;
     color: $text-grey;
     flex: 25%;
+    white-space: nowrap;   /* 新增:强制日期不换行 */
+    text-align: right;     /* 新增:文字靠右对齐,更整齐 */
   }
   
   .recommendation-role,
