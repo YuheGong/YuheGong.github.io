@@ -68,6 +68,8 @@
     .sidebar {
       position: sticky;
       top: 40px;
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 20px;
@@ -196,6 +198,34 @@
       height: 100%;
       background: linear-gradient(90deg, var(--primary), var(--accent));
       border-radius: 999px;
+    }
+
+    /* 侧边栏教育经历 */
+    .edu-item {
+      margin-bottom: 14px;
+      padding-left: 12px;
+      border-left: 2px solid var(--primary);
+    }
+
+    .edu-item:last-child { margin-bottom: 0; }
+
+    .edu-degree {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .edu-school {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--primary);
+      margin-top: 2px;
+    }
+
+    .edu-loc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
     }
 
     /* 主内容区 */
@@ -537,7 +567,7 @@
     /* 响应式 */
     @media (max-width: 900px) {
       .container { grid-template-columns: 1fr; }
-      .sidebar { position: static; }
+      .sidebar { position: static; max-height: none; overflow: visible; }
     }
   </style>
 </head>
@@ -573,6 +603,26 @@
         <a href="https://linkedin.com/in/yuhe-gong-735b471b9" target="_blank" class="social-btn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="https://github.com/YuheGong" target="_blank" class="social-btn" title="GitHub"><i class="fa-brands fa-github"></i></a>
         <a href="https://twitter.com/yuhe_gong" target="_blank" class="social-btn" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+
+      <!-- Education -->
+      <div class="sidebar-widget">
+        <h2 class="widget-title">Education</h2>
+        <div class="edu-item">
+          <div class="edu-degree">Ph.D. in Robot Manipulation and Human Robot Interaction <span class="term-tag">Fully Funded</span></div>
+          <div class="edu-school">University of Nottingham</div>
+          <div class="edu-loc">Nottingham, United Kingdom</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-degree">M.Sc. in Control System and Technology</div>
+          <div class="edu-school">Karlsruhe Institute of Technology</div>
+          <div class="edu-loc">Karlsruhe, Germany</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-degree">B.Sc. in Electrical and Electronic Engineering</div>
+          <div class="edu-school">Huazhong University of Science and Technology</div>
+          <div class="edu-loc">Wuhan, China</div>
+        </div>
       </div>
 
       <!-- Languages -->
@@ -987,34 +1037,6 @@
               <span class="item-time">10/2023</span>
             </div>
             <div class="item-subtitle">School of Computer Science, University of Nottingham</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Education -->
-      <section class="section-card">
-        <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="item-header">
-              <h3 class="item-title">Ph.D. in Robot Manipulation and Human Robot Interaction (Fully Funded)</h3>
-            </div>
-            <div class="item-subtitle">University of Nottingham</div>
-            <p class="item-desc">Nottingham, United Kingdom</p>
-          </div>
-          <div class="timeline-item">
-            <div class="item-header">
-              <h3 class="item-title">M.Sc. in Control System and Technology</h3>
-            </div>
-            <div class="item-subtitle">Karlsruhe Institute of Technology</div>
-            <p class="item-desc">Karlsruhe, Germany</p>
-          </div>
-          <div class="timeline-item">
-            <div class="item-header">
-              <h3 class="item-title">B.Sc. in Electrical and Electronic Engineering</h3>
-            </div>
-            <div class="item-subtitle">Huazhong University of Science and Technology</div>
-            <p class="item-desc">Wuhan, China</p>
           </div>
         </div>
       </section>
